@@ -1,0 +1,49 @@
+ideas = {
+	country = {
+		Racial_tensions = {
+			picture = GFX_idea_Racial_tensions
+			modifier = {
+				political_power_gain = -0.3
+				stability_factor = -0.1
+				stability_weekly_factor = -0.001
+				war_support_factor = -0.35
+				local_resources_factor = -0.5
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				surrender_limit = -0.25
+				conscription_factor = -0.25
+			}
+		}
+		Racial_tensions_2 = {
+			picture = GFX_idea_Racial_tensions_2
+			modifier = {
+				political_power_gain = -0.35
+				stability_factor = -0.05
+				stability_weekly_factor = -0.001
+				war_support_factor = -0.35
+				local_resources_factor = -0.4
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				surrender_limit = -0.25
+				conscription_factor = -0.20
+			}
+		}
+		Far_Home = {
+			picture = GFX_idea_Far_Home
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		Shadow_Ministry = {
+			picture = GFX_idea_Shadow_Ministry
+			modifier = {
+				encryption_factor = 0.25
+				research_speed_factor = 0.05
+				intellectuals_drift = 0.01
+				weekly_manpower = -1
+			}
+		}
+	}
+}

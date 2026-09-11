@@ -1,0 +1,6 @@
+SAS_Pony_Human_Relations = {
+	icon = generic_political_actions
+	allowed = {
+		tag = SAS
+	}
+}

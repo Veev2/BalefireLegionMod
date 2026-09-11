@@ -1,0 +1,55 @@
+SAS_Pony_Human_Relations = {
+	SAS_Promote_Pony_Human_Unity = {
+		icon = generic_civil_support
+		available = {
+			tag = SAS
+			has_stability < 1
+		}
+		visible = {
+			always = yes
+		}
+		cost = 50
+		days_remove = 90
+		days_re_enable = 120
+		complete_effect = {
+			add_manpower = 5
+		}
+		modifier = {
+			political_power_factor = -0.1
+            stability_weekly = 0.0025
+
+        }
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.5
+				has_political_power > 200
+			}
+			modifier = {
+				factor = 2
+				has_political_power > 400
+			}
+		}
+	}
+	SAS_Find_Human_Collaborators = {
+		icon = generic_civil_support
+		available = {
+			tag = SAS
+			has_stability < 1
+		}
+		visible = {
+			always = yes
+		}
+		cost = 75
+		days_remove = 60
+		days_re_enable = 120
+		complete_effect = {
+			add_manpower = 5
+		}
+		modifier = {
+			political_power_factor = -0.2
+			stability_factor = 0.05
+		}
+	}
+}
