@@ -1,0 +1,35 @@
+﻿l_english:
+  Star_event.1.t:0 "Starmatters Journal - A new World"
+  Star_event.1.d:0 "This morning I woke up to find myself in a strange place. The sky was clear, and the ground beneath me was as dead as ever. I had no idea how I got here or what this place was. I decided to explore my surroundings and see if I could find any clues about where I was. I eventually stumbled upon a group of ponies running from a strange creature. It looked sort of like a monkey, but without fur. The ponies were terrified, and I could see the fear in their eyes. I decided to help them, and I managed to fend off the creature. They were so amazed by this that they immediately took me to be their leader. I was confused, but I decided to go along with it. I had no idea what was going on, but I knew that I needed to figure out where I was and how to get back home."
+  Star_event.1.a:0 "Better get to work, I guess."
+
+  Assess_event.1.t:0 "Starmatters Journal - Assessing the Situation"
+  Assess_event.1.d:0 "After helping the ponies, I realized that I needed to assess the situation. I needed to figure out where I was and what was going on. I decided to take a closer look at the area and see if I could find any more of these creatures. I eventually noticed a group of these creatures, seemingly travelling together, and I decided to follow them in secret. They led me to a small town, called 'The Split', where I met some of the locals. 'These Creatures' call themselves 'Humans' and apparently they are the dominant species in this world, which only lead to me to one conclusion: We are in a different world. We must have gotten teleported here, somehow. That means the only way back is via teleportation, but I have no idea how to teleport dimensionally. I suppose for now, I will have to make the best of this situation and simply try to ensure the surival of my supposed 'subjects' (as weird as that sounds)."
+  Assess_event.1.a:0 "Oh well..."
+
+  Scout_event.1.t:0 "Starmatters Journal - Scouting the Area"
+  Scout_event.1.d:0 "Now that we knew the situation we were in, I decided to send a small group of ponies out to explore the area around The Split and report back to me with any findings. If we wanted to survive in this world, we would need to be prepared for anything. I hoped that they would be able to find some useful resources, some weapons and maybe even some allies. I knew that we would have to be careful, I doubt that this wasteland is any more forgiving than the one we came from."
+  Scout_event.1.a:0 "I guess this is my new home now."
+
+  Reunion_event.1.t:0 "Starmatters Journal - Reunion"
+  Reunion_event.1.d:0 "Today I met an old friend. A very 'old' friend indeed. I was reunited with Safe Travels, the pony that used to check in on me every couple years. I suppose I should have figured that even here in this strange world, some things remain the same. It was comforting to see a familiar face amidst all the chaos and uncertainty. And I'm glad to have him support me through this ordeal."
+  Reunion_event.1.a:0 "Welcome back old friend"
+
+  Weapons_event.1.t:0 "Starmatters Journal - Weapons and Supplies"
+  Weapons_event.1.d:0 "After a few days of scouting and scavenging, the ponies returned with some good news and some bad news. They had found a small cache of weapons and supplies, which would be useful for our survival. But, they also reported an encounter with some humans, who seemed to be hostile. They had tried to communicate with them, but the humans had attacked them on sight and one pony died in the skirmish. "
+  Weapons_event.1.a:0 "Damn Raiders..."
+
+  Seize_event.1.t:0 "Starmatters Journal - Seizing the Split"
+  Seize_event.1.d:0 "Now that we were armed I felt it possible that we could take over the Split. As we entered the town, the humans looked at us with a mix of fear and confusion. I could see the tension in the air, and I knew that we had to do something to calm the people. So I raised my hoof and addressed the crowd, assuring them that we meant no harm and that we only wished to establish order and protect them from the dangers of this world. They did not seem fully convinced, but they reluctantly accepted our presence."
+  Seize_event.1.a:0 "This feels wrong."
+
+  Mayor_event.1.t:0 "Starmatters Journal - The Fate of the Mayor"
+  Mayor_event.1.d:0 "After taking control of the Split, I had to decide what to do with the mayor. I could either leave him in power and make him act as a puppet to us, or I could exile him and take full control of the town. After much consideration, I decided that the best course of action would be to..."
+  Mayor_event.1.a:0 "make him our puppet."
+  Mayor_event.2.a:0 "exile him."
+
+  AdminSecure_event.1.t:0 "Starmatters Journal - Administration Secured"
+  AdminSecure_event.1.d:0 "I have done it. I have actually managed to form an administration, as well as a militia to maintain order and protect our interests in The Split. I will have to ensure the security of the ponies, while also ensuring the rights of the humans. It will be a delicate balance, but I am determined to make it work. Though I do wish that someone else could bear this burden instead of me."
+  AdminSecure_event.1.a:0 "Time to get to work."
+
+  

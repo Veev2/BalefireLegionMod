@@ -1,0 +1,27 @@
+﻿l_english:
+  SAS_focus_1:0 "Where the buck are we???"
+  SAS_focus_1_desc:0 "We seem to be in a strange place, and we need to figure out where we are."
+  SAS_focus_2:0 "Assess the situation"
+  SAS_focus_2_desc:0 "We need to evaluate the current situation and identify any threats."
+  SAS_focus_3:0 "Scout the area"
+  SAS_focus_3_desc:0 "We should explore the surrounding area to gather more information and locate potential resources."
+  SAS_focus_4:0 "Secure The Split"
+  SAS_focus_4_desc:0 "It's time to put our weapons to use and seize The Split, to make it our base of operations."
+  SAS_focus_5:0 "Establish an Administration"
+  SAS_focus_5_desc:0 "This is a time of crisis for ponykind and someone will have to lead them through it. I don't feel up to the task, but for now at least, it does not look like, I have much of a choice."
+  SAS_focus_6:0 "Establish a Militia"
+  SAS_focus_6_desc:0 "If we want to keep the humans in check, then we will need to establish a militia to secure our hold over this land."
+  SAS_focus_7:0 "Administration Secured"
+  SAS_focus_7_desc:0 "With the administration now firmly in place, we should look outwards to see if we can find more ponies who have ended up in this world. At the same time we will need to ensure the loyalty of the humans who remain in The Split. We must tread carefully, lest we provoke any unnecessary conflicts with the humans."
+
+  SAS_focus_Politics:0 "The Future of the Nation"
+  SAS_focus_Politics_desc:0 "Starmatter has led us through the early stages of our arrival here, and now we must consider the long-term future of our nation. Is Starmatter the leader we need to guide us forward, or should we seek new leadership?"
+
+  SAS_focus_Foreign_Policy:0 "Look Outwards"
+  SAS_focus_Foreign_Policy_desc:0 "Now that we have secured our immediate surroundings, it is time to look outwards see if any other ponies have also ended up in this world."
+
+  SAS_focus_River:0 "Cross the River"
+  SAS_focus_River_desc:0 "We can see land across the river, we should make plans to cross it and see what lies beyond."
+
+  SAS_focus_North:0 "Scout out the North"
+  SAS_focus_North_desc:0 "We should explore the area to the north of us, to gather more information and locate any potential resources or threats."
