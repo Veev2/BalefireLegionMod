@@ -1,0 +1,19 @@
+spriteTypes = {
+
+    spriteType = {
+        name = "GFX_idea_Racial_tensions"
+        texturefile = "gfx/interface/ideas/SAS/army_chaos.tga"
+    }
+    spriteType = {
+        name = "GFX_idea_Racial_tensions_2"
+        texturefile = "gfx/interface/ideas/SAS/army_chaos.tga"
+    }
+    spriteType = {
+        name = "GFX_idea_Far_Home"
+        texturefile = "gfx/interface/ideas/SAS/MAS_Protect_our_domain_idea.tga"
+    }
+    spriteType = {
+        name = "GFX_idea_Shadow_Ministry"
+        texturefile = "gfx/interface/ideas/SAS/mas_top_researchers_idea.tga"
+    }
+}

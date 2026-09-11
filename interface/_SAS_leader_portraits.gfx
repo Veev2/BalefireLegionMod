@@ -1,0 +1,55 @@
+spriteTypes = {
+
+    spriteType = {
+        name = "GFX_portrait_SAS_character"
+        texturefile = "gfx/leaders/SAS/StarmatterLarge.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_SafeTravelsPortrait"
+        texturefile = "gfx/leaders/SAS/SafeTravelsPortrait.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_SafeTravelsAdvisor"
+        texturefile = "gfx/leaders/SAS/safetravelsadv.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_Wastelander"
+        texturefile = "gfx/leaders/SAS/Wastelander.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_WastelanderAdv"
+        texturefile = "gfx/leaders/SAS/WastelanderAdvisor.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_Mystic_Portrait"
+        texturefile = "gfx/leaders/SAS/MysticMoonlightPortrait.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_Mystic_Advisor"
+        texturefile = "gfx/leaders/SAS/MysticAdvisor.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_Sugar_Portrait"
+        texturefile = "gfx/leaders/SAS/SugarScarPort.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_Sugar_Advisor"
+        texturefile = "gfx/leaders/SAS/SugarScarAdv.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_Bronco"
+        texturefile = "gfx/leaders/SAS/BroncoPortrait.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_BroncoAdv"
+        texturefile = "gfx/leaders/SAS/BroncoAdvisor.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_Silver_Jester_Portrait"
+        texturefile = "gfx/leaders/SAS/SilverJesterPortrait.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_Silver_Jester_Advisor"
+        texturefile = "gfx/leaders/SAS/SilverJesterAdv.tga"
+    }
+}   

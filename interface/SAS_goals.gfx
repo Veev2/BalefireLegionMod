@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_goal_SAS_WhereAreWe"
+		texturefile = "gfx/interface/goals/SAS/starmatterNoBG.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_Seize_The_Split"
+		texturefile = "gfx/interface/goals/SAS/goal_generic_pony_volunteer.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_Scout"
+		texturefile = "gfx/interface/goals/SAS/goal_ELF_bits_gun.tga"
+	}
+	spriteType = {
+		name = "GFX_goal_Form_Admin"
+		texturefile = "gfx/interface/goals/SAS/goal_news.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_Form_Militia"
+		texturefile = "gfx/interface/goals/SAS/generic_martial_law.tga"
+	}
+}
