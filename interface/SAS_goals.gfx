@@ -19,4 +19,8 @@ spriteTypes = {
 		name = "GFX_goal_Form_Militia"
 		texturefile = "gfx/interface/goals/SAS/generic_martial_law.tga"
 	}
+	spriteType = {
+		name = "GFX_focus_rising_phoenix"
+		texturefile = "gfx/interface/goals/SAS/rising_phoenix.tga"
+	}
 }
