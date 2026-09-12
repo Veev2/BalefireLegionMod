@@ -1,0 +1,14 @@
+﻿l_english:
+  #spellcheck_ignore: all
+  BFL_elites_ADJ:0 "Enclave"
+  BFL_elites_DEF:0 "the Enclave"
+  BFL_elites:0 "Enclave"
+  BFL_intellectuals_ADJ:0 "Enclave"
+  BFL_intellectuals_DEF:0 "the Enclave"
+  BFL_intellectuals:0 "Enclave"
+  BFL_people_ADJ:0 "Enclave"
+  BFL_people_DEF:0 "the Enclave"
+  BFL_people:0 "Enclave"
+  BFL_ruler_ADJ:0 "Legionarii"
+  BFL_ruler_DEF:0 "the Balefire Legion"
+  BFL_ruler:0 "Balefire Legion"

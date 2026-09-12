@@ -1,0 +1,207 @@
+add_namespace = Star_event 
+
+country_event = {
+	id = Star_event.1
+	title = Star_event.1.t
+	desc = Star_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = Star_event.1.a
+		add_political_power = 50
+	}
+}
+
+add_namespace = Assess_event 
+country_event = {
+	id = Assess_event.1
+	title = Assess_event.1.t
+	desc = Assess_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = Assess_event.1.a
+		add_political_power = 20
+	}
+}
+
+add_namespace = Scout_event 
+country_event = {
+	id = Scout_event.1
+	title = Scout_event.1.t
+	desc = Scout_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = Scout_event.1.a
+		add_political_power = 10
+		country_event = { id = Weapons_event.1 days = 3 }
+	}
+}
+
+add_namespace = Weapons_event
+country_event = {
+	id = Weapons_event.1
+	title = Weapons_event.1.t
+	desc = Weapons_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = Weapons_event.1.a
+		add_manpower = -1
+		add_political_power = -10
+		war_support_factor = 0.025
+		add_equipment_to_stockpile = {
+    		type = infantry_equipment
+    		amount = 250
+    		producer = USA
+		}
+		add_equipment_to_stockpile = {
+    		type = support_equipment
+    		amount = 150
+    		producer = USA
+		}
+		add_equipment_to_stockpile = { 
+    		type = fireteam_equipment
+    		amount = 50
+    		producer = USA
+		}
+		add_equipment_to_stockpile = {
+    		type = anti_tank_equipment
+    		amount = 25
+    		producer = USA
+		}
+		add_equipment_to_stockpile = {
+    		type = bike_equipment_1
+    		amount = 15
+    		producer = USA
+		}
+		add_equipment_to_stockpile = {
+    		type = supply_equipment
+    		amount = 10
+    		producer = USA
+		}
+	}
+}
+
+add_namespace = Seize_event 
+country_event = {
+	id = Seize_event.1
+	title = Seize_event.1.t
+	desc = Seize_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = Seize_event.1.a
+		add_political_power = 10
+		country_event = { id = Mayor_event.1 days = 1 }
+	}
+}
+add_namespace = Mayor_event 
+country_event = {
+	id = Mayor_event.1
+	title = Mayor_event.1.t
+	desc = Mayor_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = Mayor_event.1.a
+		add_political_power = -25
+		swap_ideas = {
+            remove_idea = Racial_tensions
+            add_idea = Racial_tensions_2
+        }
+	}
+	option = {
+		name = Mayor_event.2.a
+		add_political_power = 75
+		add_stability = -0.05
+	}
+}
+add_namespace = Reunion_event 
+country_event = {
+	id = Reunion_event.1
+	title = Reunion_event.1.t
+	desc = Reunion_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = Reunion_event.1.a
+		set_country_flag = my_advisor_is_unlocked
+	}
+}
+add_namespace = AdminSecure_event 
+country_event = {
+	id = AdminSecure_event.1
+	title = AdminSecure_event.1.t
+	desc = AdminSecure_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = AdminSecure_event.1.a
+	}
+}

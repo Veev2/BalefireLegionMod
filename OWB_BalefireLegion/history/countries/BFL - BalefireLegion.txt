@@ -1,0 +1,249 @@
+﻿capital = 1427
+set_politics = {
+	ruling_party = ruler
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 10
+	elites = 10
+	intellectuals = 20
+	ruler = 60
+}
+
+set_stability = 0.45
+set_war_support = 0.35
+set_research_slots = 1
+set_convoys = 10
+set_variable = {
+	never_return_stolen_territory = 1
+}
+
+set_technology = {
+	basic_supply_transport_tech = 1
+	infantry_tech_level_tribal = 1
+	#infantry_tech_level_settler = 1
+	#infantry_tech_level_scientific = 1
+
+	support_tech_level_tribal = 1
+	#support_tech_level_settler = 1
+	#support_tech_level_scientific = 1
+
+	special_forces_tech_level_tribal = 1
+	#special_forces_tech_level_settler = 1
+	#special_forces_tech_level_scientific = 1
+
+	#power_armour_tech_level_tribal = 1
+	#power_armour_tech_level_settler = 1
+	#power_armour_tech_level_scientific = 1
+
+	vehicles_tech_level_tribal = 1
+	#vehicles_tech_level_settler = 1
+	#vehicles_tech_level_scientific = 1
+
+	robotics_tech_level_tribal = 1
+	#robotics_tech_level_settler = 1
+	#robotics_tech_level_scientific = 1
+
+	creatures_tech_level_tribal = 1
+	creatures_tech_level_settler = 1
+	#creatures_tech_level_scientific = 1
+
+	#air_tech_level_tribal = 1
+	#air_tech_level_settler = 1
+	#air_tech_level_scientific = 1
+
+	#naval_tech_level_tribal = 1
+	#naval_tech_level_settler = 1
+	#naval_tech_level_scientific = 1
+
+	tools_tech_level_tribal = 1
+	#tools_tech_level_settler = 1
+	#tools_tech_level_scientific = 1
+
+	habitation_tech_level_tribal = 1
+	#habitation_tech_level_settler = 1
+	#habitation_tech_level_scientific = 1
+
+	exploitation_tech_level_tribal = 1
+	#exploitation_tech_level_settler = 1
+	#exploitation_tech_level_scientific = 1
+
+	electronics_tech_level_tribal = 1
+	#electronics_tech_level_settler = 1
+	#electronics_tech_level_scientific = 1
+
+	standard_weaponry_tech = 1
+	ballistic_weaponry_tech_1 = 1
+
+	tribal_civilization = 1
+	settled_civilization = 1
+	scientific_civilization = 1
+
+	tribal_tech_visibility_tech = 1
+	tribal_tech_access_tech = 1
+	#vault_industry_tech = 1
+	#underground_industry_tech = 1
+	implant_tech_visibility_tech = 1
+	implant_tech_access_tech = 1
+	#basic_industry_tech = 1
+
+	tool_engineering = 1
+	#maketool_engineering_1 = 1
+	#pre_construction_industry_tech = 1
+	#construction_industry_tech_1 = 1
+	#construction_industry_tech_2 = 1
+	#extraction_industry_tech_1 = 1
+	#habitation_industry_tech_1 = 1
+	#extraction_industry_tech_2 = 1
+	#habitation_industry_tech_2 = 1
+	pre_recycling_industry_tech = 1
+
+	#resource_generator_tech = 1
+	#resource_generator_water_tech_1 = 1
+	#resource_generator_power_tech_1 = 1
+	#resource_generator_metal_tech_1 = 1
+
+	#enclave_pa_unlock_tech = 1
+	#vertibird_unlock_tech = 1
+	military_heritage_unlock_tech = 1
+	khan_field_medics_tech = 1
+	tohono_ranger_support = 1
+	skilled_medics_tech = 1
+	CES_horns_moroni_tech = 1
+	#CES_mercenary_training_tech = 1
+	#legion_centurions_tech = 1
+	#legion_warriors_of_mars_tech = 1
+	#armored_chariots_tech = 1
+	#legion_frumentarii_officers_tech = 1
+	legion_frumentarii_commandoes_tech = 1
+	phoenix_tech = 1
+	#legion_vexillarius_tech = 1
+	#legion_training_tech = 1
+	#ces_aurelius_mercenaries_tech = 1
+	#ces_at_tech = 1
+	#ces_navajo_skin_walkers_tech = 1
+	#ces_two_tech = 1
+	#hq_elite_ops_unlock_tech = 1
+
+	#elite_army = 1
+	#grand_army = 1
+	#automated_warfare = 1
+	terror_tactics = 1
+	#outsider_warfare_doctrine = 1
+
+	standard_weaponry_tech = 1
+	melee_weaponry_tech_1 = 1
+	nautics_tech_1 = 1
+	energy_weaponry_tech_1 = 1
+	#gauss_unlock_tech = 1
+	#energy_weapon_emitter_tech = 1
+	#energy_weaponry_tech_2 = 1
+
+	spec_ops_equipment_tech_1 = 1
+	spec_ops_equipment_tech_2 = 1
+	#simple_servo_tech = 1
+	#scav_pa_tech = 1
+	#hardening_armour_tech = 1
+	#stripped_pa_tech = 1
+	#weight_support_frame_pa_tech_1 = 1
+	#weight_support_frame_pa_tech_2 = 1
+	#wasteland_pa_tech = 1
+
+	#support_weaponry = 1
+	#anti_tank_equipment_tech_1 = 1
+	#dog_equipment_tech_1 = 1
+	#dog_infantry_tech = 1
+
+	#glider_tech = 1
+	insect_tech_access_tech = 1
+	burrowing_tech_access_tech = 1
+	amphibious_tech_access_tech = 1
+	#feral_tech_access_tech = 1
+	#ghoul_civilization = 1
+
+	#bike_tech_1 = 1
+	nautics_tech_1 = 1
+
+	#light_navy_hull_tech_1 = 1
+	#waterproof_sealing_tech = 1
+	#medium_navy_hull_tech_1 = 1
+	#multi_deck_construction_tech = 1
+	#heavy_navy_hull_tech_1 = 1
+	#naval_module_tech = 1
+	#naval_weapons_module_tech = 1
+	#naval_support_module_tech = 1
+	#naval_armour_tech_1 = 1
+
+	#robco_unlock_tech = 1
+}
+
+load_oob = BFL_units_2275
+# Enclave Intellectuals
+# creating country leaders
+# recruit_character = BFL_Dictator
+recruit_character = BFL_Grand_Marshal
+recruit_character = BFL_General
+recruit_character = BFL_Silent_Salve
+# recruit_character = BFL_Nightstalker
+# recruit_character = BFL_Darkstar
+# recruit_character = BFL_Ruby
+recruit_character = MCA_enclave_soldier_officer
+recruit_character = MCA_female_army_chief
+
+add_equipment_to_stockpile = {
+	type = enclave_power_armour_equipment_1
+	amount = 1
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = gauss_equipment_1
+	amount = 50
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = vb_gunship_equipment
+	amount = 0
+	producer = USA
+}
+
+add_ideas = {
+	outsider_law_enclave_only
+	enclave_military_law_1
+	training_law_wasteland
+	closed_economy
+	undesirables_law_raider
+	mutant_law_both
+	centralization_settler_maximum
+	"concilium legatorum"
+	"Pars Primaria"
+	"Pars Auxilia"
+	"Pars Occulta"
+	"Specialized Army"
+}
+
+set_country_flag = enclave_nation
+set_country_flag = locked_economy_law
+set_country_flag = elite_doctrine_ai
+set_country_flag = power_armor_doctrine_ai
+set_country_flag = infantry_energy_ai
+set_country_flag = dont_give_settler_generic_political_advisors
+set_country_flag = dont_give_settler_generic_high_command
+set_country_flag = dont_give_settler_generic_theorists
+set_country_flag = dont_give_settler_generic_chiefs
+set_country_flag = no_generic_chief
+set_country_flag = no_generic_political_advisors
+set_country_flag = no_generic_high_command
+set_country_flag = no_generic_theorist
+set_country_flag = no_generic_advisor
+
+set_rule = {
+	can_send_volunteers = no
+}
+
+
+	#followers_established_idea
+
+

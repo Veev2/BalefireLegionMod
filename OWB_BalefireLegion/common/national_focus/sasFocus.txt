@@ -1,0 +1,428 @@
+focus_tree = {
+	id = sasFocus_focus
+
+	country = {
+		base = 0
+		modifier = {
+			add = 10
+			tag = SAS
+
+		}
+	}
+
+	focus = {
+		id = SAS_focus_1
+		icon = GFX_goal_SAS_WhereAreWe
+		x = 20
+		y = 1
+		cost = 7
+		completion_reward = {
+			add_political_power = 5
+			country_event = { id = Star_event.1 }
+		}
+	}
+	focus = {
+		id = SAS_focus_2
+		icon = GFX_goal_generic_neutrality_focus
+		x = 20
+		y = 2
+		prerequisite = { 
+			focus = SAS_focus_1 
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 5
+			country_event = { id = Assess_event.1 }
+		}
+	}
+	focus = {
+		id = SAS_focus_3
+		icon = GFX_goal_Scout
+		x = 20
+		y = 3
+		prerequisite = { 
+			focus = SAS_focus_2 
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 5
+			country_event = { id = Scout_event.1 }
+		}
+	}
+	focus = {
+		id = SAS_focus_4
+		icon = GFX_goal_Seize_The_Split
+		x = 20
+		y = 4
+		prerequisite = {
+			focus = SAS_focus_3
+		}
+		cost = 14
+		completion_reward = {
+			add_political_power = -25
+			country_event = { id = Seize_event.1 }
+		}
+	}
+	focus = {
+		id = SAS_focus_5
+		icon = GFX_goal_Form_Admin
+		x = 19
+		y = 5
+		prerequisite = {
+			focus = SAS_focus_4
+		}
+		cost = 14
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = SAS_focus_6
+		icon = GFX_goal_Form_Militia
+		x = 21
+		y = 5
+		prerequisite = {
+			focus = SAS_focus_4
+		}
+		cost = 14
+		completion_reward = {
+			1428 = {
+				create_unit = {
+					division = "name = \"1st Militia Regiment\" division_template = \"Militia\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"2nd Militia Regiment\" division_template = \"Militia\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+        	}
+		}
+	}
+	focus = {
+		id = SAS_focus_7
+		icon = GFX_focus_generic_improve_the_administration
+		x = 20
+		y = 6
+		prerequisite = {
+			focus = SAS_focus_5
+		}
+		prerequisite = {
+			focus = SAS_focus_6
+		}
+		cost = 7
+		completion_reward = {
+			country_event = { id = AdminSecure_event.1 }
+		}
+	}
+	#------------------------------------------------------------------
+	#Human Rights
+	#------------------------------------------------------------------
+	focus = {
+		id = SAS_focus_Human_Rights
+		icon = GFX_focus_generic_improve_the_administration
+		x = 26
+		y = 8
+		prerequisite = {
+			focus = SAS_focus_7
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	#------------------------------------------------------------------
+	#MILITARY
+	#------------------------------------------------------------------
+	focus = {
+		id = SAS_focus_Military
+		icon = GFX_focus_generic_improve_the_administration
+		x = 5
+		y = 8
+		prerequisite = {
+			focus = SAS_focus_7
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Specialized
+		icon = GFX_focus_generic_improve_the_administration
+		x = 7
+		y = 9
+		prerequisite = {
+			focus = SAS_focus_Military
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Conventional
+		icon = GFX_focus_generic_improve_the_administration
+		x = 5
+		y = 9
+		prerequisite = {
+			focus = SAS_focus_Military
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Robot
+		icon = GFX_focus_generic_improve_the_administration
+		x = 3
+		y = 9
+		prerequisite = {
+			focus = SAS_focus_Military
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	#------------------------------------------------------------------
+	#INDUSTRY
+	#------------------------------------------------------------------
+	focus = {
+		id = SAS_focus_Industry
+		icon = GFX_focus_generic_improve_the_administration
+		x = 35
+		y = 8
+		prerequisite = {
+			focus = SAS_focus_7
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	#------------------------------------------------------------------
+	#POLITICS
+	#------------------------------------------------------------------
+	focus = {
+		id = SAS_focus_Politics
+		icon = GFX_focus_generic_improve_the_administration
+		x = 20
+		y = 8
+		prerequisite = {
+			focus = SAS_focus_7
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Question_Leadership
+		icon = GFX_focus_generic_improve_the_administration
+		x = 20
+		y = 9
+		prerequisite = {
+			focus = SAS_focus_Politics
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Pledge_Election
+		icon = GFX_focus_generic_improve_the_administration
+		x = 20
+		y = 10
+		prerequisite = {
+			focus = SAS_focus_Question_Leadership
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Campaign #Unlock Decsions to boost party popularity
+		icon = GFX_focus_generic_improve_the_administration
+		x = 20
+		y = 11
+		prerequisite = {
+			focus = SAS_focus_Pledge_Election
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Seek_Support
+		icon = GFX_focus_generic_improve_the_administration
+		x = 20
+		y = 12
+		prerequisite = {
+			focus = SAS_focus_Campaign
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_The_friend
+		icon = GFX_focus_generic_improve_the_administration
+		x = 21
+		y = 13
+		prerequisite = {
+			focus = SAS_focus_Seek_Support
+		}
+		cost = 7
+		mutually_exclusive = { focus = SAS_focus_The_past }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_The_past
+		icon = GFX_focus_generic_improve_the_administration
+		x = 19
+		y = 13
+		prerequisite = {
+			focus = SAS_focus_Seek_Support
+		}
+		cost = 7
+		mutually_exclusive = { focus = SAS_focus_The_friend }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Results #pick via Decision
+		icon = GFX_focus_generic_improve_the_administration
+		x = 20
+		y = 14
+		prerequisite = {
+			focus = SAS_focus_The_past
+			focus = SAS_focus_The_friend
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Starmatter_prevails
+		icon = GFX_focus_generic_improve_the_administration
+		x = 18
+		y = 15
+		prerequisite = {
+			focus = SAS_focus_Results
+		}
+		mutually_exclusive = { focus = SAS_focus_Safe_Travels_leads_way }
+		cost = 1
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Safe_Travels_leads_way
+		icon = GFX_focus_generic_improve_the_administration
+		x = 22
+		y = 15
+		prerequisite = {
+			focus = SAS_focus_Results
+		}
+		mutually_exclusive = { focus = SAS_focus_Starmatter_prevails }
+		cost = 1
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Legion
+		icon = GFX_focus_rising_phoenix
+		x = 20
+		y = 16
+		prerequisite = {
+			focus = SAS_focus_Starmatter_prevails
+			focus = SAS_focus_Safe_Travels_leads_way
+		}
+		mutually_exclusive = { focus = SAS_focus_Ministry_Looming }
+		mutually_exclusive = { focus = SAS_focus_Safe_Travels_leads_way }
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Ministry_Looming
+		icon = GFX_idea_Shadow_Ministry
+		x = 17
+		y = 16
+		prerequisite = {
+			focus = SAS_focus_Starmatter_prevails
+		}
+		mutually_exclusive = { focus = SAS_focus_Legion }
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_Divine_Right_Rule
+		icon = GFX_focus_generic_improve_the_administration
+		x = 23
+		y = 16
+		prerequisite = {
+			focus = SAS_focus_Safe_Travels_leads_way
+		}
+		mutually_exclusive = { focus = SAS_focus_Legion }
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	#------------------------------------------------------------------
+	#FOREIGN POLICY
+	#------------------------------------------------------------------
+	focus = {
+		id = SAS_focus_Foreign_Policy
+		icon = GFX_focus_generic_improve_the_administration
+		x = 14
+		y = 8
+		prerequisite = {
+			focus = SAS_focus_7
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_River
+		icon = GFX_focus_generic_improve_the_administration
+		x = 15
+		y = 9
+		prerequisite = {
+			focus = SAS_focus_Foreign_Policy
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SAS_focus_North
+		icon = GFX_focus_generic_improve_the_administration
+		x = 13
+		y = 9
+		prerequisite = {
+			focus = SAS_focus_Foreign_Policy
+		}
+		cost = 35
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+}

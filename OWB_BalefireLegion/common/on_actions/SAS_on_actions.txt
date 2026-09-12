@@ -1,0 +1,13 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            # Target your specific country tag
+            SAS = {
+                country_event = { 
+                    id = Reunion_event.1 
+                    days = 18 
+                }
+            }
+        }
+    }
+}

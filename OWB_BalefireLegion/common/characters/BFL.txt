@@ -1,0 +1,199 @@
+characters = {
+	BFL_Grand_Marshal = {
+		name="Grand Marshal Relentless Precision"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BFL/Dictator.tga"
+			}
+		}
+		country_leader = {
+			ideology = benevolent_dictatorship
+			traits = {
+				isolationist
+				military_background
+				grand_marshal_leader_trait
+				political_workhorse
+				fortifications_expert
+				dictator_leader_trait
+			}
+			expire = "3000.1.1.1"
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+			traits = {
+				grand_marshal_trait
+				charismatic_trait
+				perceptive_trait
+				enduring_trait
+				intelligent_trait
+				sniper_trait
+				awareness_trait
+			}
+		}
+	}
+	BFL_General = {
+		name="General"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BFL/Wastelander.tga"
+				small="gfx/advisors/BFL/WastelanderAdvisor.tga"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			traits = { 
+				strong_trait
+				enduring_trait
+			}
+		}
+	}
+	BFL_Silent_Salve = {
+		name="Princeps Primaria Silent Salve"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BFL/Wastelander.tga"
+				small="gfx/advisors/BFL/WastelanderAdvisor.tga"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = BFL_princeps_primaria_silent_salve
+			allowed = {
+				original_tag = BFL
+			}
+			traits = {
+				silent_salve_leader_trait
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	BFL_Nightstalker = {
+		name="Princeps Occulta Nightstalker"
+		gender = male
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BFL/Wastelander.tga"
+				small="gfx/advisors/BFL/WastelanderAdvisor.tga"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = BFL_princeps_occulta_nightstalker
+			allowed = {
+				original_tag = BFL
+			}
+			traits = {
+				cade_cultural
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+		}
+	}
+	BFL_Darkstar = {
+		name="Praetorian Darkstar"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BFL/Wastelander.tga"
+				small="gfx/advisors/BFL/WastelanderAdvisor.tga"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = BFL_praetorian_darkstar
+			allowed = {
+				original_tag = BFL
+			}
+			traits = {
+				cade_cultural
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+		}
+	}
+	BFL_Ruby = {
+		name="Princeps Auxilia Ruby"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BFL/Wastelander.tga"
+				small="gfx/advisors/BFL/WastelanderAdvisor.tga"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = BFL_princeps_auxilia_ruby
+			allowed = {
+				original_tag = BFL
+			}
+			traits = {
+				bryn_economic
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+		}
+	}
+	BFL_Dictator = {
+		name=Dictator
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BFL/Dictator.tga"
+			}
+		}
+		field_marshal = {
+			skill = 5
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+			traits = {
+				charismatic_trait
+				perceptive_trait
+				enduring_trait
+				intelligent_trait
+				rooted_trait
+				pain_train_trait
+				strong_back_trait
+				savage_leader_trait
+				sniper_trait
+				awareness_trait
+				observant_leader_trait
+				survivalist_trait
+				life_giver_trait
+				tough_leader_trait
+				ferocious_loyalty_trait
+				vigilant_recycler_trait
+				beloved_leader_trait
+				cult_of_personality_trait
+				smooth_talker_trait
+				local_leader_trait
+				inspirational_trait
+				junk_rounds_trait
+				melee_hacker_trait
+				lead_foot_trait
+				nimble_leader_trait
+				idiot_savant_trait
+				fortunate_leader_trait
+			}
+		}
+	}
+
+}

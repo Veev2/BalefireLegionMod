@@ -1,0 +1,247 @@
+characters={
+	SAS_Starmatter={
+		name=SAS_Starmatter
+		portraits={
+			civilian={
+				large="GFX_portrait_SAS_character"
+			}
+		}
+		country_leader={
+			ideology = technocracy
+			traits={
+				Old_World_Harmonist
+				MAS_Background
+				Inexperienced_Leader
+			}
+			expire = "3100.1.1.1"
+		}
+	}
+
+	SAS_Safe_Travels={
+		name=SAS_Safe_Travels
+		portraits={
+			civilian={
+				large="GFX_portrait_SAS_SafeTravelsPortrait"
+				small="GFX_portrait_SAS_SafeTravelsAdvisor"
+			}
+		}
+		country_leader={
+			ideology = divine_right_ruler
+			traits={
+				Staunch_Harmonist_2
+			}
+			expire = "3100.1.1.1"
+		}
+		advisor = {
+            slot = cultural_advisor
+			idea_token = SAS_Safe_Travels_cultural_advisor
+			allowed = {
+				original_tag = SAS
+			}
+			available = {
+                has_country_flag = my_advisor_is_unlocked
+            }
+			traits = {
+				Staunch_Harmonist
+			}
+			cost = 50
+			ai_will_do = {
+				factor = 5
+				modifier = {
+					factor = 2
+					political_power_growth > 1.2
+				}
+			}
+        }
+	}
+
+	SAS_Wastelander={
+		name="Wastelander"
+		portraits={
+			civilian={
+				large="GFX_portrait_SAS_Wastelander"
+				small="GFX_portrait_SAS_WastelanderAdv"
+			}
+		}
+		advisor={
+			slot = cultural_advisor
+			idea_token = SAS_Wastelander_cultural_advisor
+			allowed = {
+				original_tag = SAS
+			}
+			traits = {
+				Staunch_Harmonist_2
+			}
+			cost = 50
+			ai_will_do = {
+				factor = 5
+				modifier = {
+					factor = 2
+					political_power_growth > 1.2
+				}
+			}
+		}
+	}
+
+	SAS_Brisk_Bronco={
+		name="Brisk Bronco"	#Somewhat reformed Raider
+		portraits = {
+			army={
+				large="GFX_portrait_SAS_Bronco"
+				small="GFX_portrait_SAS_BroncoAdv"
+			}
+			civilian={
+				large="GFX_portrait_SAS_Bronco"
+				small="GFX_portrait_SAS_BroncoAdv"
+			}
+		}
+		corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+            traits = { 
+				agile_trait
+			}
+        }
+		advisor = {
+			slot = army_chief
+			idea_token = SAS_Brisk_Bronco_army_chief
+			ledger = army
+			allowed = {
+				original_tag = SAS
+			}
+			available = {
+                has_completed_focus = SAS_focus_6
+            }
+			traits = {
+				Reckless_Rusher
+			}
+			cost = 75
+		}
+
+	}
+
+	SAS_Silver_Jester={
+		name="Silver Jester"	#Mare who ran a shop in the Wasteland
+		portraits={
+			civilian={
+				large="GFX_portrait_SAS_Silver_Jester_Portrait"
+				small="GFX_portrait_SAS_Silver_Jester_Advisor"
+			}
+		}
+		advisor = {
+			slot = economic_advisor
+			idea_token = SAS_Silver_Jester_economic_advisor
+			allowed = {
+				original_tag = SAS
+			}
+			available = {
+                has_completed_focus = SAS_focus_5
+            }
+			traits = {
+				Silver_Tongued_Businessmare
+			}
+			cost = 100
+		}
+	}
+
+	SAS_Sugar_Scar={
+		name="Sugar Scar"	#Ghoul from pre-war times
+		portraits={
+			civilian={
+				large="GFX_portrait_SAS_Sugar_Portrait"
+				small="GFX_portrait_SAS_Sugar_Advisor"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = SAS_Sugar_Scar_economic_advisor
+			ledger = army
+			allowed = {
+				original_tag = SAS
+			}
+			available = {
+                has_completed_focus = SAS_focus_5
+            }
+			traits = {
+				Caring_Veteran
+			}
+			cost = 100
+		}
+	}
+
+	SAS_Mystic_Moonlight={
+		name="Mystic Moonlight"	#Mysterious Unicorn with unknown past
+		portraits={
+			civilian={
+				large="GFX_portrait_SAS_Mystic_Portrait"
+				small="GFX_portrait_SAS_Mystic_Advisor"
+			}
+		}
+		advisor = {
+			slot = cultural_advisor
+			idea_token = SAS_Mystic_Moonlight_cultural_advisor
+			allowed = {
+				original_tag = SAS
+			}
+			available = {
+                has_completed_focus = SAS_focus_5
+            }
+			traits = {
+				Shady_Genius
+			}
+			cost = 100
+		}
+	}
+
+	SAS_Rivet_Rush={
+		name="Rivet Rush"	#Fast and reckless engineer (mare)
+		portraits={
+			civilian={
+				large="GFX_portrait_SAS_Wastelander"
+				small="GFX_portrait_SAS_WastelanderAdv"
+			}
+		}
+		advisor = {
+			slot = economic_advisor
+			idea_token = SAS_Rivet_Rush_economic_advisor
+			allowed = {
+				original_tag = SAS
+			}
+			available = {
+                has_completed_focus = SAS_focus_5
+            }
+			traits = {
+				Expert_Engineer
+			}
+			cost = 100
+		}
+	}
+
+	SAS_Shuffle_Haste={
+		name="Shuffle Haste"	#Quick and nimble mare
+		portraits={
+			civilian={
+				large="GFX_portrait_SAS_Wastelander"
+				small="GFX_portrait_SAS_WastelanderAdv"
+			}
+		}
+		advisor = {
+			slot = economic_advisor
+			idea_token = SAS_Shuffle_Haste_economic_advisor
+			allowed = {
+				original_tag = SAS
+			}
+			available = {
+                has_completed_focus = SAS_focus_5
+            }
+			traits = {
+				Mare_with_Plan
+			}
+			cost = 100
+		}
+	}
+
+}

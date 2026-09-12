@@ -1,0 +1,204 @@
+capital = 1428
+oob = SAS_2275
+
+set_technology = {
+	basic_supply_transport_tech = 1
+	infantry_tech_level_tribal = 1
+	infantry_tech_level_settler = 1
+	infantry_tech_level_scientific = 1
+	support_tech_level_tribal = 1
+	support_tech_level_settler = 1
+	support_tech_level_scientific = 1
+	special_forces_tech_level_tribal = 1
+	special_forces_tech_level_settler = 1
+	special_forces_tech_level_scientific = 1
+	power_armour_tech_level_tribal = 1
+	power_armour_tech_level_settler = 1
+	power_armour_tech_level_scientific = 1
+	vehicles_tech_level_tribal = 1
+	vehicles_tech_level_settler = 1
+	vehicles_tech_level_scientific = 1
+	robotics_tech_level_tribal = 1
+	robotics_tech_level_settler = 1
+	robotics_tech_level_scientific = 1
+	air_tech_level_tribal = 1
+	air_tech_level_settler = 1
+	air_tech_level_scientific = 1
+	naval_tech_level_tribal = 1
+	naval_tech_level_settler = 1
+	naval_tech_level_scientific = 1
+	tools_tech_level_tribal = 1
+	tools_tech_level_settler = 1
+	tools_tech_level_scientific = 1
+	habitation_tech_level_tribal = 1
+	habitation_tech_level_settler = 1
+	habitation_tech_level_scientific = 1
+	exploitation_tech_level_tribal = 1
+	exploitation_tech_level_settler = 1
+	exploitation_tech_level_scientific = 1
+	electronics_tech_level_tribal = 1
+	electronics_tech_level_settler = 1
+	electronics_tech_level_scientific = 1
+	grand_army = 1
+	standard_weaponry_tech = 1
+	melee_weaponry_tech_1 = 1
+	ballistic_weaponry_tech_1 = 1
+	support_weaponry = 1
+	fireteam_weaponry_tech = 1
+	recon_company_tech_1 = 1
+	bike_tech_1 = 1
+	tribal_civilization = 1
+	settled_civilization = 1
+	scientific_civilization = 1
+	anti_tank_equipment_tech_1 = 1
+	spec_ops_equipment_tech_1 = 1
+	spec_ops_equipment_tech_2 = 1
+	hardening_armour_tech = 1
+	simple_servo_tech = 1
+	stripped_pa_tech = 1
+	weight_support_frame_pa_tech_1 = 1
+	weight_support_frame_pa_tech_2 = 1
+	wasteland_pa_tech = 1
+	pre_agriculture_industry_tech = 1
+	agriculture_industry_tech_1 = 1
+	agriculture_industry_tech_2 = 1
+	nautics_tech_1 = 1
+	light_navy_hull_tech_1 = 1
+	#waterproof_sealing_tech = 1
+	medium_navy_hull_tech_1 = 1
+	#multi_deck_construction_tech = 1
+	heavy_navy_hull_tech_1 = 1
+	naval_invasion_tech_1 = 1
+	naval_module_tech = 1
+	naval_armour_tech_1 = 1
+	#naval_pd_module_tech_1  = 1
+	#naval_communications_module_tech_1 = 1
+	#naval_weapons_module_tech = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+set_research_slots = 2
+set_convoys = 30
+
+set_politics = {
+	ruling_party = intellectuals
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 70
+	elites = 1
+	intellectuals = 9
+	ruler = 20
+}
+
+recruit_character = SAS_Starmatter
+recruit_character = SAS_Safe_Travels
+#recruit_character = SAS_Wastelander
+recruit_character = SAS_Brisk_Bronco
+recruit_character = SAS_Silver_Jester
+recruit_character = SAS_Sugar_Scar
+recruit_character = SAS_Mystic_Moonlight
+recruit_character = SAS_Rivet_Rush
+recruit_character = SAS_Shuffle_Haste
+
+
+promote_character = SAS_Starmatter
+
+add_ideas = {
+	officer_law_local_heroes
+	training_law_none
+	mutant_law_ghoul
+	scavenging_law
+	closed_economy
+	centralization_settler_minimum
+	chems_partial_legalizaion
+	political_effort_press
+	outsider_law_none
+
+	Racial_tensions
+	Far_Home
+	Shadow_Ministry
+}
+
+set_variable = { never_return_stolen_territory = 1 }
+
+set_country_flag = enclave_nation
+set_country_flag = locked_economy_law
+set_country_flag = elite_doctrine_ai
+set_country_flag = power_armor_doctrine_ai
+set_country_flag = infantry_energy_ai
+set_country_flag = dont_give_settler_generic_political_advisors
+set_country_flag = dont_give_settler_generic_high_command
+set_country_flag = dont_give_settler_generic_theorists
+set_country_flag = dont_give_settler_generic_chiefs
+set_country_flag = no_generic_chief
+set_country_flag = no_generic_political_advisors
+set_country_flag = no_generic_high_command
+set_country_flag = no_generic_theorist
+set_country_flag = no_generic_advisor
+
+create_equipment_variant = {
+	name = "River Boat"
+	type = ship_hull_light_1
+	name_group = NCR_LIGHT
+	parent_version = 0
+	modules = {
+		fixed_ship_command_slot = ship_command_module_1
+		fixed_ship_engine_slot = light_ship_oars_module
+		fixed_ship_battery_slot = ship_light_mounted_gun_module
+		# fixed_ship_battery_slot_1 = ship_light_mounted_gun_module
+		fixed_ship_detection_slot = ship_detection_module_1
+		# fixed_ship_detection_slot_1 = empty
+		fixed_ship_point_defense_slot = empty
+		mid_1_custom_slot = light_ship_oars_module
+		rear_1_custom_slot = empty
+		rear_2_custom_slot = ship_light_mounted_gun_module
+	}
+}
+
+create_equipment_variant = {
+	name = "Destroyer"
+	type = ship_hull_medium_1
+	name_group = NCR_MEDIUM
+	parent_version = 0
+	modules = {
+		fixed_ship_command_slot = ship_command_module_1
+		fixed_ship_engine_slot = medium_ship_oars_module
+		fixed_ship_battery_slot = ship_medium_mounted_gun_module
+		# fixed_ship_battery_slot_1 = ship_medium_mounted_gun_module
+		fixed_ship_detection_slot = ship_detection_module_1
+		# fixed_ship_detection_slot_1 = empty
+		fixed_ship_armour_slot = empty
+		fixed_ship_point_defense_slot = ship_light_mounted_gun_module
+		# fixed_ship_point_defense_slot_1 = ship_light_mounted_gun_module
+		mid_1_custom_slot = medium_ship_oars_module
+		rear_1_custom_slot = empty
+		rear_2_custom_slot = ship_medium_mounted_gun_module
+	}
+}
+
+create_equipment_variant = {
+	name = "Heavy Ship"
+	type = ship_hull_heavy_1
+	name_group = NCR_HEAVY
+	parent_version = 0
+	modules = {
+		fixed_ship_command_slot = ship_command_module_1
+		fixed_ship_engine_slot = heavy_ship_oars_module
+		fixed_ship_battery_slot = ship_heavy_mounted_gun_module
+		# fixed_ship_battery_slot_1 = ship_heavy_mounted_gun_module
+		fixed_ship_detection_slot = ship_detection_module_1
+		# fixed_ship_detection_slot_1 = ship_detection_module_1
+		fixed_ship_armour_slot = heavy_ship_armour_module_1
+		fixed_ship_point_defense_slot = ship_pd_module_1
+		# fixed_ship_point_defense_slot_1 = ship_pd_module_1
+		fixed_ship_communication_slot = ship_communications_module_1
+		# fixed_ship_storage_slot = empty
+		front_1_custom_slot = empty
+		mid_1_custom_slot = heavy_ship_oars_module
+		rear_1_custom_slot = ship_detection_module_1
+		rear_2_custom_slot = ship_heavy_mounted_gun_module
+	}
+}
