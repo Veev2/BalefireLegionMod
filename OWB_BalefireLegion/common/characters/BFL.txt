@@ -42,7 +42,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large="gfx/leaders/BFL/Wastelander.tga"
-				small="gfx/advisors/BFL/WastelanderAdvisor.tga"
+				small="gfx/leaders/BFL/WastelanderAdvisor.tga"
 			}
 		}
 		corps_commander = {
@@ -63,7 +63,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large="gfx/leaders/BFL/Wastelander.tga"
-				small="gfx/advisors/BFL/WastelanderAdvisor.tga"
+				small="gfx/leaders/BFL/SilentAdvisor.tga"
 			}
 		}
 		advisor = {
@@ -87,7 +87,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large="gfx/leaders/BFL/Wastelander.tga"
-				small="gfx/advisors/BFL/WastelanderAdvisor.tga"
+				small="gfx/leaders/BFL/WastelanderAdvisor.tga"
 			}
 		}
 		advisor = {
@@ -102,15 +102,16 @@ characters = {
 			cost = 100
 			ai_will_do = {
 				factor = 10
+			}
 		}
 	}
 	BFL_Darkstar = {
-		name="Praetorian Darkstar"
+		name="Praetorian Dark Star"
 		gender = female
 		portraits = {
 			civilian = {
 				large="gfx/leaders/BFL/Wastelander.tga"
-				small="gfx/advisors/BFL/WastelanderAdvisor.tga"
+				small="gfx/leaders/BFL/DarkStarAdv.tga"
 			}
 		}
 		advisor = {
@@ -125,6 +126,7 @@ characters = {
 			cost = 100
 			ai_will_do = {
 				factor = 10
+			}
 		}
 	}
 	BFL_Ruby = {
@@ -133,7 +135,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large="gfx/leaders/BFL/Wastelander.tga"
-				small="gfx/advisors/BFL/WastelanderAdvisor.tga"
+				small="gfx/leaders/BFL/RubyAdvisor.tga"
 			}
 		}
 		advisor = {
@@ -148,6 +150,7 @@ characters = {
 			cost = 100
 			ai_will_do = {
 				factor = 10
+			}
 		}
 	}
 	BFL_Dictator = {
