@@ -349,7 +349,7 @@ focus_tree = {
 			focus = SAS_focus_Safe_Travels_leads_way
 		}
 		mutually_exclusive = { focus = SAS_focus_Ministry_Looming }
-		mutually_exclusive = { focus = SAS_focus_Safe_Travels_leads_way }
+		mutually_exclusive = { focus = SAS_focus_Divine_Right_Rule }
 		cost = 35
 		completion_reward = {
 			add_political_power = 50
