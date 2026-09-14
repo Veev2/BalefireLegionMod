@@ -52,4 +52,12 @@ spriteTypes = {
         name = "GFX_portrait_SAS_Silver_Jester_Advisor"
         texturefile = "gfx/leaders/SAS/SilverJesterAdv.tga"
     }
+    spriteType = {
+        name = "GFX_portrait_SAS_RivetAdv"
+        texturefile = "gfx/leaders/SAS/RivetAdv.tga"
+    }
+    spriteType = {
+        name = "GFX_portrait_SAS_ShuffleAdv"
+        texturefile = "gfx/leaders/SAS/ShuffleAdv.tga"
+    }
 }   
