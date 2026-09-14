@@ -1,0 +1,98 @@
+ideas = {
+	country = {
+		#my_first_idea = {
+			picture = generic_officer_hat
+
+			modifier = {
+				political_power_gain = 0.5
+				justify_war_goal_time = -0.90
+			}
+		}
+		#"Concilium Legatorum" = {
+			picture = generic_religion
+
+			modifier = {
+				political_power_factor = -0.5
+				stability_factor = 0.10
+				resistance_target = -0.08
+				core_creation_cost_factor = -0.10
+				conscription_factor = 0.01
+				consumer_goods_expected_value = -0.05
+				industrial_capacity_factory = 0.05
+				global_building_slots_factor = 0.1
+			}
+		}
+		#"Pars Primaria" = {
+			picture = generic_military_draft
+
+			modifier = {
+				caps_expense_modifier = 0.08
+				training_time_army_factor = 0.20
+				justify_war_goal_time = -0.20
+				send_volunteer_divisions_required = -0.20
+				send_volunteer_size = 2
+				no_supply_grace = 24
+				special_forces_min = 20
+				breakthrough_factor = 0.05
+				experience_gain_army = 0.05
+				experience_gain_navy = 0.01
+				experience_gain_air = 0.01
+			}
+		}
+		#"Pars Auxilia" = {
+			picture = generic_medicine
+
+			modifier = {
+				supply_consumption_factor = 0.05
+				caps_expense_modifier = 0.11
+				training_time_army_factor = 0.20
+				justify_war_goal_time = -0.20
+				send_volunteer_divisions_required = -0.20
+				send_volunteer_size = 2
+				special_forces_min = 20
+				research_speed_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				casualty_trickleback = 0.05
+				acclimatization_hot_climate_gain_factor = 0.20
+				acclimatization_cold_climate_gain_factor = 0.20
+			}
+		}
+		#"Pars Occulta" = {
+			picture = generic_flexible_foreign_policy
+
+			modifier = {
+				resistance_target = 0.05
+				caps_expense_modifier = 0.11
+				training_time_army_factor = 0.20
+				justify_war_goal_time = -0.20
+				send_volunteer_divisions_required = -0.20
+				send_volunteer_size = 2
+				special_forces_min = 20
+				compliance_gain = 0.02
+				stability_weekly = 0.0001
+				drift_defence_factor = 0.2
+				decryption_factor = 0.025
+				encryption_factor = 0.025
+				max_planning = 0.025
+				coordination_bonus = 0.025
+				army_org_factor = 0.025
+				equipment_capture_factor = 0.025
+				operative_slot = 1
+				intel_network_gain = 0.5
+			}
+		}
+		#"Specialized Army" = {
+			picture = generic_religion
+
+			modifier = {
+				special_forces_min = 200
+				special_forces_cap = 2
+				special_forces_attack_factor = 0.1
+				special_forces_defence_factor = 0.1
+			}
+		}
+	}
+}
