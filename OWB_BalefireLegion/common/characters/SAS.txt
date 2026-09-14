@@ -201,7 +201,7 @@ characters={
 		portraits={
 			civilian={
 				large="GFX_portrait_SAS_Wastelander"
-				small="GFX_portrait_SAS_WastelanderAdv"
+				small="GFX_portrait_SAS_RivetAdv"
 			}
 		}
 		advisor = {
@@ -225,7 +225,7 @@ characters={
 		portraits={
 			civilian={
 				large="GFX_portrait_SAS_Wastelander"
-				small="GFX_portrait_SAS_WastelanderAdv"
+				small="GFX_portrait_SAS_ShuffleAdv"
 			}
 		}
 		advisor = {
