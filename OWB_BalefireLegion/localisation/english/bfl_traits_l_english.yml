@@ -1,3 +1,4 @@
 ﻿l_english:
- grand_marshal_leader_trait = "Grand Marshal"
- dictator_leader_trait = "Dictator"
+ grand_marshal_leader_trait:0 "Grand Marshal"
+ dictator_leader_trait:0 "Dictator"
+ silent_salve_leader_trait:0 "Princeps Primaria"
