@@ -1,0 +1,19 @@
+characters = {
+	THC_Lyonnaise = {
+		name="Elder Lyonnaise"
+		gender = male
+		portraits = {
+			civilian = {
+				large="gfx/leaders/THC/Wastelander.tga"
+			}
+		}
+		country_leader = {
+			ideology = feudalism
+			traits = {
+				isolationist
+				military_background
+			}
+			expire = "3000.1.1.1"
+		}
+	}
+}
