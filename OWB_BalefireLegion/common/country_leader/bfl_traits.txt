@@ -19,9 +19,9 @@ leader_traits = {
 		experience_gain_army = 0.01
 		special_forces_min = 15
 		land_reinforce_rate = 0.05
-		experience_soldier_loss = -0.50 
+		experienced_soldier_loss = -0.50 
 	}
-	nightstalker_leader_trait = {
+	"Princeps Occulta" = {
 		random = no
 		operative_slot = 1
 		weekly_manpower = -1
@@ -33,6 +33,20 @@ leader_traits = {
 		drift_defence_factor = 0.2
 		decryption_factor = 0.025
 		encryption_factor = 0.025 
+	}
+	"Praetoriana Umbratilis" = {
+		random = no
+		political_power_gain = 0.05
+		army_attack_factor = 0.05
+		army_defence_factor = 0.05
+	}
+	"Princeps Auxilia" = {
+		random = no
+		research_speed_factor = 0.05
+		global_building_slots_factor = 0.1
+		production_lack_of_resource_penalty_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		supply_consumption_factor = 0.10
 	}
 }
 
