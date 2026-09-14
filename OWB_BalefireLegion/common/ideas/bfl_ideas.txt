@@ -8,6 +8,34 @@ ideas = {
 				justify_war_goal_time = -0.90
 			}
 		}
+		"Concilium Legatorum in Chaos" = {
+			picture = generic_religion
+
+			modifier = {
+				political_power_factor = -0.7
+				stability_factor = -0.05
+				resistance_target = -0.01
+				core_creation_cost_factor = -0.01
+				conscription_factor = 0.01
+				consumer_goods_expected_value = 0.05
+				industrial_capacity_factory = -0.05
+				global_building_slots_factor = 0.1
+			}
+		}
+		"Concilium Legatorum rebuilding" = {
+			picture = generic_religion
+
+			modifier = {
+				political_power_factor = -0.6
+				stability_factor = 0.03
+				resistance_target = -0.05
+				core_creation_cost_factor = -0.05
+				conscription_factor = 0.01
+				consumer_goods_expected_value = 0.01
+				industrial_capacity_factory = 0.01
+				global_building_slots_factor = 0.1
+			}
+		}
 		"Concilium Legatorum" = {
 			picture = generic_religion
 
@@ -20,6 +48,40 @@ ideas = {
 				consumer_goods_expected_value = -0.05
 				industrial_capacity_factory = 0.05
 				global_building_slots_factor = 0.1
+			}
+		}
+		"Pars Primaria in Chaos" = {
+			picture = generic_military_draft
+
+			modifier = {
+				caps_expense_modifier = 0.08
+				training_time_army_factor = 0.20
+				justify_war_goal_time = -0.20
+				send_volunteer_divisions_required = -0.20
+				send_volunteer_size = 2
+				no_supply_grace = 24
+				special_forces_min = 20
+				breakthrough_factor = 0.05
+				experience_gain_army = 0.01
+				experience_gain_navy = 0.01
+				experience_gain_air = 0.01
+			}
+		}
+		"Pars Primaria rebuilding" = {
+			picture = generic_military_draft
+
+			modifier = {
+				caps_expense_modifier = 0.08
+				training_time_army_factor = 0.20
+				justify_war_goal_time = -0.20
+				send_volunteer_divisions_required = -0.20
+				send_volunteer_size = 2
+				no_supply_grace = 24
+				special_forces_min = 20
+				breakthrough_factor = 0.05
+				experience_gain_army = 0.03
+				experience_gain_navy = 0.01
+				experience_gain_air = 0.01
 			}
 		}
 		"Pars Primaria" = {
