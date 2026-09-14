@@ -1608,3 +1608,7 @@ BFL = {
 	color = rgb { 6 255 0 }
 	color_ui = rgb { 6 255 0 }
 }
+THC = {
+	color = rgb { 107 167 184 }
+	color_ui = rgb { 107 167 184 }
+}
