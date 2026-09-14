@@ -126,10 +126,10 @@ set_politics = {
 }
 
 set_popularities = {
-	people = 70
+	people = 50
 	elites = 1
-	intellectuals = 9
-	ruler = 20
+	intellectuals = 19
+	ruler = 30
 }
 
 recruit_character = SAS_Starmatter
