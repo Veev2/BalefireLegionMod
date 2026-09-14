@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		#my_first_idea = {
+		my_first_idea = {
 			picture = generic_officer_hat
 
 			modifier = {
@@ -8,7 +8,7 @@ ideas = {
 				justify_war_goal_time = -0.90
 			}
 		}
-		#"Concilium Legatorum" = {
+		"Concilium Legatorum" = {
 			picture = generic_religion
 
 			modifier = {
@@ -22,7 +22,7 @@ ideas = {
 				global_building_slots_factor = 0.1
 			}
 		}
-		#"Pars Primaria" = {
+		"Pars Primaria" = {
 			picture = generic_military_draft
 
 			modifier = {
@@ -39,7 +39,7 @@ ideas = {
 				experience_gain_air = 0.01
 			}
 		}
-		#"Pars Auxilia" = {
+		"Pars Auxilia" = {
 			picture = generic_medicine
 
 			modifier = {
@@ -60,7 +60,7 @@ ideas = {
 				acclimatization_cold_climate_gain_factor = 0.20
 			}
 		}
-		#"Pars Occulta" = {
+		"Pars Occulta" = {
 			picture = generic_flexible_foreign_policy
 
 			modifier = {
@@ -84,7 +84,7 @@ ideas = {
 				intel_network_gain = 0.5
 			}
 		}
-		#"Specialized Army" = {
+		"Specialized Army" = {
 			picture = generic_religion
 
 			modifier = {
