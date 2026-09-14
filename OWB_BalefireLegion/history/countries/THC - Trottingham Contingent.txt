@@ -1,0 +1,135 @@
+﻿capital = 1429
+load_oob = THC_units_2275
+
+set_technology = {
+	basic_supply_transport_tech = 1
+	infantry_tech_level_tribal = 1
+	#infantry_tech_level_settler = 1
+	#infantry_tech_level_scientific = 1
+
+	support_tech_level_tribal = 1
+	#support_tech_level_settler = 1
+	#support_tech_level_scientific = 1
+
+	#special_forces_tech_level_tribal = 1
+	#special_forces_tech_level_settler = 1
+	#special_forces_tech_level_scientific = 1
+
+	power_armour_tech_level_tribal = 1
+	#power_armour_tech_level_settler = 1
+	#power_armour_tech_level_scientific = 1
+
+	#vehicles_tech_level_tribal = 1
+	#vehicles_tech_level_settler = 1
+	#vehicles_tech_level_scientific = 1
+
+	robotics_tech_level_tribal = 1
+	#robotics_tech_level_settler = 1
+	#robotics_tech_level_scientific = 1
+
+	#air_tech_level_tribal = 1
+	#air_tech_level_settler = 1
+	#air_tech_level_scientific = 1
+
+	naval_tech_level_tribal = 1
+	naval_tech_level_settler = 1
+	#naval_tech_level_scientific = 1
+
+	tools_tech_level_tribal = 1
+	#tools_tech_level_settler = 1
+	#tools_tech_level_scientific = 1
+
+	habitation_tech_level_tribal = 1
+	#habitation_tech_level_settler = 1
+	#habitation_tech_level_scientific = 1
+
+	exploitation_tech_level_tribal = 1
+	#exploitation_tech_level_settler = 1
+	#exploitation_tech_level_scientific = 1
+
+	electronics_tech_level_tribal = 1
+	#electronics_tech_level_settler = 1
+	#electronics_tech_level_scientific = 1
+
+	elite_army = 1
+	standard_weaponry_tech = 1
+	melee_weaponry_tech_1 = 1
+	ballistic_weaponry_tech_1 = 1
+	energy_weaponry_tech_1 = 1
+	energy_weapon_emitter_tech = 1
+	energy_weaponry_tech_2 = 1
+
+	#spec_ops_equipment_tech_1 = 1
+	#spec_ops_equipment_tech_2 = 1
+	#hardening_armour_tech = 1
+	stripped_pa_tech = 1
+	weight_support_frame_pa_tech_1 = 1
+	weight_support_frame_pa_tech_2 = 1
+	#simple_servo_tech = 1
+	wasteland_pa_tech = 1
+	#scav_pa_tech = 1
+
+	support_weaponry = 1
+	anti_tank_equipment_tech_1 = 1
+	radio_detection = 1
+
+	nautics_tech_1 = 1
+	light_navy_hull_tech_1 = 1
+	#waterproof_sealing_tech = 1
+	medium_navy_hull_tech_1 = 1
+	#multi_deck_construction_tech = 1
+	heavy_navy_hull_tech_1 = 1
+	naval_module_tech = 1
+	#naval_weapons_module_tech = 1
+	naval_support_module_tech = 1
+	naval_armour_tech_1 = 1
+	#naval_communications_module_tech_1 = 1
+}
+
+set_stability = 0.3
+set_war_support = 0.6
+set_research_slots = 2
+set_convoys = 10
+set_country_flag = is_brotherhood_nation_proper
+set_country_flag = is_brotherhood_nation
+set_country_flag = elite_doctrine_ai
+set_country_flag = power_armor_doctrine_ai
+set_country_flag = infantry_energy_ai
+set_country_flag = is_california_nation
+
+add_opinion_modifier = { target = ACH modifier = lost_hills_loyalists }
+add_opinion_modifier = { target = MXC modifier = lost_hills_loyalists }
+
+set_politics = {
+	ruling_party = elites
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 15
+	elites = 35
+	intellectuals = 25
+	ruler = 25
+}
+
+recruit_character = THC_Lyonnaise
+
+add_ideas = {
+	bunkerblues
+	paladins
+	outsider_law_none
+}
+
+add_opinion_modifier = { target = TRL modifier = boshatesmutants }
+add_opinion_modifier = { target = MLT modifier = boshatesmutants }
+add_opinion_modifier = { target = DIS modifier = boshatesmutants }
+add_opinion_modifier = { target = JCT modifier = boshatesmutants }
+add_opinion_modifier = { target = WBH modifier = boshateswashingtonstatebos }
+
+
+set_country_flag = moj_ops_1
+set_country_flag = manpower_laws_hidden
+set_variable = { never_return_stolen_territory = 1 }
+add_manpower = 400 #Gives a little wiggle room for the player
+
+set_country_flag = army_wages_disabled
