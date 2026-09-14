@@ -56,8 +56,8 @@ set_technology = {
 	melee_weaponry_tech_1 = 1
 	ballistic_weaponry_tech_1 = 1
 	energy_weaponry_tech_1 = 1
-	energy_weapon_emitter_tech = 1
-	energy_weaponry_tech_2 = 1
+	#energy_weapon_emitter_tech = 1
+	#energy_weaponry_tech_2 = 1
 
 	#spec_ops_equipment_tech_1 = 1
 	#spec_ops_equipment_tech_2 = 1
