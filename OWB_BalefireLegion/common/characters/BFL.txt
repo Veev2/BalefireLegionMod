@@ -82,7 +82,7 @@ characters = {
 		}
 	}
 	BFL_Nightstalker = {
-		name="Princeps Occulta Nightstalker"
+		name="Nightstalker"
 		gender = male
 		portraits = {
 			civilian = {
@@ -91,13 +91,13 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = army_chief
+			slot = high_command
 			idea_token = BFL_princeps_occulta_nightstalker
 			allowed = {
 				original_tag = BFL
 			}
 			traits = {
-				cade_cultural
+				"Princeps Occulta"
 			}
 			cost = 100
 			ai_will_do = {
@@ -106,7 +106,7 @@ characters = {
 		}
 	}
 	BFL_Darkstar = {
-		name="Praetorian Dark Star"
+		name="Dark Star"
 		gender = female
 		portraits = {
 			civilian = {
@@ -115,13 +115,13 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = army_chief
+			slot = high_command
 			idea_token = BFL_praetorian_darkstar
 			allowed = {
 				original_tag = BFL
 			}
 			traits = {
-				cade_cultural
+				"Praetoriana Umbratilis"
 			}
 			cost = 100
 			ai_will_do = {
@@ -130,7 +130,7 @@ characters = {
 		}
 	}
 	BFL_Ruby = {
-		name="Princeps Auxilia Ruby"
+		name="Ruby"
 		gender = female
 		portraits = {
 			civilian = {
@@ -139,13 +139,13 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = army_chief
+			slot = economic_advisor
 			idea_token = BFL_princeps_auxilia_ruby
 			allowed = {
 				original_tag = BFL
 			}
 			traits = {
-				bryn_economic
+				"Princeps Auxilia"
 			}
 			cost = 100
 			ai_will_do = {
