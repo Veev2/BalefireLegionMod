@@ -188,9 +188,9 @@ load_oob = BFL_units_2275
 recruit_character = BFL_Grand_Marshal
 recruit_character = BFL_General
 recruit_character = BFL_Silent_Salve
-# recruit_character = BFL_Nightstalker
-# recruit_character = BFL_Darkstar
-# recruit_character = BFL_Ruby
+recruit_character = BFL_Nightstalker
+recruit_character = BFL_Darkstar
+recruit_character = BFL_Ruby
 recruit_character = MCA_enclave_soldier_officer
 recruit_character = MCA_female_army_chief
 
