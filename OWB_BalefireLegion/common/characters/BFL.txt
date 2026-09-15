@@ -58,7 +58,7 @@ characters = {
 		}
 	}
 	BFL_Silent_Salve = {
-		name="Princeps Primaria Silent Salve"
+		name="Silent Salve"
 		gender = female
 		portraits = {
 			civilian = {
@@ -87,7 +87,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large="gfx/leaders/BFL/Wastelander.tga"
-				small="gfx/leaders/BFL/WastelanderAdvisor.tga"
+				small="gfx/leaders/BFL/NightstalkerAdv.tga"
 			}
 		}
 		advisor = {
