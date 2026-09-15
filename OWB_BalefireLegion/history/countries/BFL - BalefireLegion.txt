@@ -220,11 +220,10 @@ add_ideas = {
 	undesirables_law_raider
 	mutant_law_both
 	centralization_settler_maximum
-	"concilium legatorum"
-	"Pars Primaria"
-	"Pars Auxilia"
-	"Pars Occulta"
-	"Specialized Army"
+	"concilium legatorum in Chaos"
+	"Pars Primaria in Chaos"
+	"Pars Auxilia in Chaos"
+	"Pars Occulta in Chaos"
 }
 
 set_country_flag = enclave_nation
