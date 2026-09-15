@@ -1,6 +1,6 @@
 characters = {
 	BFL_Grand_Marshal = {
-		name="Grand Marshal Relentless Precision"
+		name="Relentless Precision"
 		gender = female
 		portraits = {
 			civilian = {
@@ -15,7 +15,7 @@ characters = {
 				grand_marshal_leader_trait
 				political_workhorse
 				fortifications_expert
-				dictator_leader_trait
+				#dictator_leader_trait
 			}
 			expire = "3000.1.1.1"
 		}
