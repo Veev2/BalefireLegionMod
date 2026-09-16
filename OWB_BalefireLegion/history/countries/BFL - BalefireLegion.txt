@@ -224,6 +224,7 @@ add_ideas = {
 	"Pars Primaria in Chaos"
 	"Pars Auxilia in Chaos"
 	"Pars Occulta in Chaos"
+	Racial_tensions
 }
 
 set_country_flag = enclave_nation
