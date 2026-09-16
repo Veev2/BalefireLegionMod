@@ -8,6 +8,18 @@ ideas = {
 				justify_war_goal_time = -0.90
 			}
 		}
+		"Operation Clear Skies" = {
+			picture = generic_religion
+
+			modifier = {
+				stability_factor = 0.05
+				core_creation_cost_factor = -0.10
+				conscription = 0.02
+				conscription_factor = 0.10
+				monthly_population = -0.20
+				consumer_goods_expected_value = 0.05
+			}
+		}
 		"Concilium Legatorum in Chaos" = {
 			picture = generic_religion
 
@@ -33,7 +45,7 @@ ideas = {
 				conscription_factor = 0.01
 				consumer_goods_expected_value = 0.01
 				industrial_capacity_factory = 0.01
-				global_building_slots_factor = 0.1
+				global_building_slots_factor = 0.15
 			}
 		}
 		"Concilium Legatorum" = {
@@ -54,15 +66,21 @@ ideas = {
 			picture = generic_military_draft
 
 			modifier = {
+				stability_factor = -0.05
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+				max_planning = -0.20
+				coordination_bonus = -0.20
+				army_org_factor = -0.20
 				caps_expense_modifier = 0.08
 				training_time_army_factor = 0.20
-				justify_war_goal_time = -0.20
-				send_volunteer_divisions_required = -0.20
+				justify_war_goal_time = 0.10
+				send_volunteer_divisions_required = 0.50
 				send_volunteer_size = 2
 				no_supply_grace = 24
-				special_forces_min = 20
-				breakthrough_factor = 0.05
-				experience_gain_army = 0.01
+				special_forces_min = 10
+				breakthrough_factor = 0.01
+				experience_gain_army = 0.02
 				experience_gain_navy = 0.01
 				experience_gain_air = 0.01
 			}
@@ -71,13 +89,19 @@ ideas = {
 			picture = generic_military_draft
 
 			modifier = {
-				caps_expense_modifier = 0.08
-				training_time_army_factor = 0.20
-				justify_war_goal_time = -0.20
-				send_volunteer_divisions_required = -0.20
-				send_volunteer_size = 2
-				no_supply_grace = 24
-				special_forces_min = 20
+				stability_factor = -0.01
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				max_planning = -0.10
+				coordination_bonus = -0.10
+				army_org_factor = -0.10
+				caps_expense_modifier = 0.11
+				training_time_army_factor = 0.30
+				justify_war_goal_time = -0.10
+				send_volunteer_divisions_required = 0.20
+				send_volunteer_size = 3
+				no_supply_grace = 48
+				special_forces_min = 30
 				breakthrough_factor = 0.05
 				experience_gain_army = 0.03
 				experience_gain_navy = 0.01
@@ -105,21 +129,25 @@ ideas = {
 			picture = generic_medicine
 
 			modifier = {
-				supply_consumption_factor = 0.10
-				caps_expense_modifier = 0.2
-				training_time_army_factor = 0.30
-				justify_war_goal_time = -0.30
-				send_volunteer_divisions_required = -0.20
-				send_volunteer_size = 4
-				special_forces_min = 50
-				research_speed_factor = 0.10
-				production_factory_max_efficiency_factor = 0.10
-				production_factory_efficiency_gain_factor = 0.10
-				army_attack_factor = 0.05
-				army_defence_factor = 0.10
-				casualty_trickleback = 0.05
-				acclimatization_hot_climate_gain_factor = 0.20
-				acclimatization_cold_climate_gain_factor = 0.20
+				stability_factor = -0.05
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				max_planning = -0.10
+				coordination_bonus = -0.10
+				army_org_factor = -0.10
+				supply_consumption_factor = 0.50
+				caps_expense_modifier = 0.1
+				training_time_army_factor = 0.20
+				justify_war_goal_time = 0.10
+				send_volunteer_divisions_required = 0.50
+				send_volunteer_size = 2
+				special_forces_min = 10
+				research_speed_factor = 0.01
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				casualty_trickleback = 0.01
+				acclimatization_hot_climate_gain_factor = 0.10
+				acclimatization_cold_climate_gain_factor = 0.10
 			}
 		}
 		"Pars Auxilia" = {
@@ -148,23 +176,25 @@ ideas = {
 
 			modifier = {
 				resistance_target = 0.10
-				caps_expense_modifier = 0.2
-				training_time_army_factor = 0.30
-				justify_war_goal_time = -0.30
-				send_volunteer_divisions_required = -0.20
-				send_volunteer_size = 4
-				special_forces_min = 50
-				compliance_gain = 0.75
+				stability_factor = -0.05
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				max_planning = -0.05
+				coordination_bonus = -0.05
+				army_org_factor = -0.05
+				caps_expense_modifier = 0.1
+				training_time_army_factor = 0.20
+				justify_war_goal_time = 0.10
+				send_volunteer_divisions_required = 0.50
+				send_volunteer_size = 2
+				special_forces_min = 10
+				compliance_gain = -0.05
 				stability_weekly = 0.0001
-				drift_defence_factor = 0.2
-				decryption_factor = 0.05
-				encryption_factor = 0.05
-				max_planning = 0.05
-				coordination_bonus = 0.05
-				army_org_factor = 0.05
+				drift_defence_factor = 0.1
+				decryption_factor = -0.05
+				encryption_factor = -0.05
 				equipment_capture_factor = 0.05
-				operative_slot = 2
-				intel_network_gain = 0.75
+				intel_network_gain = 0.25
 			}
 		}
 		"Pars Occulta" = {
