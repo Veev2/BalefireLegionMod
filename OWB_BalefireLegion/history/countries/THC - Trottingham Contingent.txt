@@ -59,6 +59,9 @@ set_technology = {
 	#energy_weapon_emitter_tech = 1
 	#energy_weaponry_tech_2 = 1
 
+	#implant_tech_visibility_tech = 1
+	#implant_tech_access_tech = 1
+
 	#spec_ops_equipment_tech_1 = 1
 	#spec_ops_equipment_tech_2 = 1
 	#hardening_armour_tech = 1
@@ -71,7 +74,7 @@ set_technology = {
 
 	support_weaponry = 1
 	anti_tank_equipment_tech_1 = 1
-	radio_detection = 1
+	#radio_detection = 1
 
 	nautics_tech_1 = 1
 	light_navy_hull_tech_1 = 1
@@ -118,6 +121,13 @@ add_ideas = {
 	bunkerblues
 	paladins
 	outsider_law_none
+	closed_economy
+	mutant_law_ghoul
+	political_effort_favored_press
+	centralization_brotherhood_maximum
+
+	Racial_tensions
+	Far_Home
 }
 
 add_opinion_modifier = { target = TRL modifier = boshatesmutants }

@@ -220,6 +220,7 @@ add_ideas = {
 	undesirables_law_raider
 	mutant_law_both
 	centralization_settler_maximum
+
 	"concilium legatorum in Chaos"
 	"Pars Primaria in Chaos"
 	"Pars Auxilia in Chaos"
@@ -230,6 +231,8 @@ add_ideas = {
 	"Stateless Army"
 	Far_Home
 }
+
+add_manpower = 400
 
 set_country_flag = enclave_nation
 set_country_flag = locked_economy_law
