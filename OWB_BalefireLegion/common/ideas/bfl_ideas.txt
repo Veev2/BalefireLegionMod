@@ -9,7 +9,7 @@ ideas = {
 			}
 		}
 		"Operation Clear Skies" = {
-			picture = generic_religion
+			picture = generic_officer_hat
 
 			modifier = {
 				stability_factor = 0.05
@@ -21,15 +21,24 @@ ideas = {
 			}
 		}
 		"Slave Conscipts" = {
-			picture = generic_religion
+			picture = generic_officer_hat
 
 			modifier = {
 				stability_factor = -0.05
 				conscription = 0.01
 			}
 		}
+		"Slave Conscipts II" = {
+			picture = generic_officer_hat
+
+			modifier = {
+				stability_factor = -0.05
+				caps_expense_modifier = 0.05
+				weekly_manpower = 25
+			}
+		}
 		"Tributum" = {
-			picture = generic_religion
+			picture = generic_officer_hat
 
 			modifier = {
 				subjects_autonomy_gain = -0.5
@@ -240,13 +249,28 @@ ideas = {
 			}
 		}
 		"Specialized Army" = {
-			picture = generic_religion
+			picture = generic_officer_hat
 
 			modifier = {
 				special_forces_min = 200
 				special_forces_cap = 2
 				special_forces_attack_factor = 0.1
 				special_forces_defence_factor = 0.1
+			}
+		}
+		"Stateless Army" = {
+			picture = generic_officer_hat
+
+			modifier = {
+				political_power_gain = -0.3
+				stability_factor = -0.1
+				war_support_factor = 0.05
+				local_resources_factor = -0.75
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				surrender_limit = -0.5
+				conscription_factor = -0.5
 			}
 		}
 		Racial_tensions = {
