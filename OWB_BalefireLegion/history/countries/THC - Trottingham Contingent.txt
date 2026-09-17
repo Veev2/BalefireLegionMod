@@ -118,14 +118,17 @@ set_popularities = {
 recruit_character = THC_Lyonnaise
 
 add_ideas = {
-	bunkerblues
 	paladins
 	outsider_law_none
 	closed_economy
 	mutant_law_ghoul
 	political_effort_favored_press
 	centralization_brotherhood_maximum
+	officer_law_veterans
+	training_law_veterans
+	chems_in_warfare
 
+	bunkerblues
 	Racial_tensions
 	Far_Home
 }
@@ -140,6 +143,6 @@ add_opinion_modifier = { target = WBH modifier = boshateswashingtonstatebos }
 set_country_flag = moj_ops_1
 set_country_flag = manpower_laws_hidden
 set_variable = { never_return_stolen_territory = 1 }
-add_manpower = 400 #Gives a little wiggle room for the player
+#add_manpower = 400 #Gives a little wiggle room for the player
 
 set_country_flag = army_wages_disabled
