@@ -14,8 +14,8 @@ division_template = {
 units = {
 	division = {
 		name = "Legion Survivors"
-		location = 16462
+		location = 16464
 		division_template = "Legion Survivors"
-		start_experience_factor = 0.25
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
