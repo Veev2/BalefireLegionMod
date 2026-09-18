@@ -1,0 +1,60 @@
+division_template = {
+	name = "Knights Militia"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Paladin Patrol"
+
+	regiments = {
+		power_armour = { x = 0 y = 0 }
+		power_armour = { x = 0 y = 1 }
+		power_armour = { x = 0 y = 2 }
+		power_armour = { x = 1 y = 0 }
+		power_armour = { x = 1 y = 1 }
+	}
+	support = {
+		anti_tank_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Knight Patrol"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+		anti_tank_company = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "Trottingham Paladins"
+		location = 16443
+		division_template = "Paladin Patrol"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Trottingham Knights II"
+		location = 16443
+		division_template = "Knight Patrol"
+		start_experience_factor = 0.18
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Trottingham Knights"
+		location = 16442
+		division_template = "Knight Patrol"
+		start_experience_factor = 0.23
+		start_equipment_factor = 1.0
+	}
