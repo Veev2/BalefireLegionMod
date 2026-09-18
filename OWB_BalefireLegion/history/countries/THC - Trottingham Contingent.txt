@@ -89,10 +89,10 @@ set_technology = {
 	#naval_communications_module_tech_1 = 1
 }
 
-set_stability = 0.3
+set_stability = 0.4
 set_war_support = 0.6
 set_research_slots = 2
-set_convoys = 10
+set_convoys = 30
 set_country_flag = is_brotherhood_nation_proper
 set_country_flag = is_brotherhood_nation
 set_country_flag = elite_doctrine_ai
@@ -100,8 +100,8 @@ set_country_flag = power_armor_doctrine_ai
 set_country_flag = infantry_energy_ai
 set_country_flag = is_california_nation
 
-add_opinion_modifier = { target = ACH modifier = lost_hills_loyalists }
-add_opinion_modifier = { target = MXC modifier = lost_hills_loyalists }
+#add_opinion_modifier = { target = ACH modifier = lost_hills_loyalists }
+#add_opinion_modifier = { target = MXC modifier = lost_hills_loyalists }
 
 set_politics = {
 	ruling_party = elites
@@ -115,7 +115,60 @@ set_popularities = {
 	ruler = 25
 }
 
+set_party_name = {
+		ideology = elites
+		long_name = "Paladins"
+		name = "Paladins"
+}
+set_party_name = {
+		ideology = ruler
+		long_name = "Knights"
+		name = "Knights"
+}
+set_party_name = {
+		ideology = intellectuals
+		long_name = "Scribes"
+		name = "Scribes"
+}
+set_party_name = {
+		ideology = people
+		long_name = "people"
+		name = "people"
+}
+
 recruit_character = THC_Lyonnaise
+
+add_equipment_to_stockpile = {
+	type = power_armor_equipment_1
+	amount = 600
+	producer = THC
+}
+
+add_equipment_to_stockpile = {
+	type = energy_equipment_1
+	amount = 1000
+	producer = THC
+}
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_1
+	amount = 100
+	producer = THC
+}
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 100
+	producer = THC
+}
+
+add_offsite_building = {
+	type = industrial_complex
+	level = 1
+}
+add_offsite_building = {
+	type = dockyard
+	level = 1
+}
+
 
 add_ideas = {
 	paladins
@@ -133,14 +186,14 @@ add_ideas = {
 	Far_Home
 }
 
-add_opinion_modifier = { target = TRL modifier = boshatesmutants }
-add_opinion_modifier = { target = MLT modifier = boshatesmutants }
-add_opinion_modifier = { target = DIS modifier = boshatesmutants }
-add_opinion_modifier = { target = JCT modifier = boshatesmutants }
-add_opinion_modifier = { target = WBH modifier = boshateswashingtonstatebos }
+#add_opinion_modifier = { target = TRL modifier = boshatesmutants }
+#add_opinion_modifier = { target = MLT modifier = boshatesmutants }
+#add_opinion_modifier = { target = DIS modifier = boshatesmutants }
+#add_opinion_modifier = { target = JCT modifier = boshatesmutants }
+#add_opinion_modifier = { target = WBH modifier = boshateswashingtonstatebos }
 
 
-set_country_flag = moj_ops_1
+#set_country_flag = moj_ops_1
 set_country_flag = manpower_laws_hidden
 set_variable = { never_return_stolen_territory = 1 }
 #add_manpower = 400 #Gives a little wiggle room for the player
