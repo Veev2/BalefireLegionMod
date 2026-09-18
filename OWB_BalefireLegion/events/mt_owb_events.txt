@@ -1,5 +1,4 @@
 add_namespace = mod_event
-
 country_event = {
 	id = mod_event.1
 	title = mod_event.1.t
@@ -32,5 +31,33 @@ country_event = {
 		else = {
 			add_ideas = my_first_idea
 		}
+	}
+}
+
+add_namespace = WhatTheHay_event
+country_event = {
+	id = WhatTheHay_event.1
+	title = WhatTheHay_event.1.t
+	desc = WhatTheHay_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = WhatTheHay_event.1.a
+		set_province_victory_points = {
+            province = 16464
+            value = 4      
+        }
+		set_province_victory_points = {
+            province = 16462
+            value = 1
+        }
 	}
 }
