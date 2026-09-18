@@ -14,7 +14,10 @@ state = {
 		owner = BFL
 		add_core_of = BFL
 		victory_points = {
-			16462 1
+			16462 4
+		}
+		victory_points = {
+			16464 1
 		}
 		buildings = {
 			infrastructure = 4
