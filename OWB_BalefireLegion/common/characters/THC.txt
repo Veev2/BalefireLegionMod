@@ -4,7 +4,7 @@ characters = {
 		gender = male
 		portraits = {
 			civilian = {
-				large="gfx/leaders/THC/Wastelander.tga"
+				large="gfx/leaders/THC/elderlyonaise.tga"
 			}
 		}
 		country_leader = {
@@ -14,6 +14,50 @@ characters = {
 				military_background
 			}
 			expire = "3000.1.1.1"
+		}
+	}
+	THC_General = {
+		name="General Placeholder"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/THC/Wastelander.tga"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			traits = { 
+				brotherhood_commander_trait
+				strong_trait
+				intelligent_trait
+			}
+		}
+	}
+	THC_Head_Paladin = {
+		name="Head Paladin"
+		gender = female
+		portraits = {
+			civilian = {
+				small="gfx/leaders/THC/SilentAdvisor.tga"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = THC_head_paladin
+			allowed = {
+				original_tag = THC
+			}
+			traits = {
+				elliott_high_command
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
 		}
 	}
 }
