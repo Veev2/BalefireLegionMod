@@ -91,6 +91,38 @@ characters = {
 			}
 		}
 	}
+	THC_Navy = {
+		name="Admiral"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/THC/Wastelander.tga"
+				small="gfx/leaders/THC/WastelanderAdvisor.tga"
+			}
+		}
+		navy_leader = {
+			traits = { bold caustic_personality }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = THC_navy
+			allowed = {
+				original_tag = THC
+			}
+			traits = {
+				elliott_high_command
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
 	THC_Dandelion = {
 		name="Sentinel Dandelion (Star Paladin?)"
 		gender = female
@@ -102,6 +134,52 @@ characters = {
 		advisor = {
 			slot = high_command
 			idea_token = THC_sentinel_dandelion
+			allowed = {
+				original_tag = THC
+			}
+			traits = {
+				elliott_high_command
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	THC_High_Command = {
+		name="High Command 2"
+		gender = female
+		portraits = {
+			civilian = {
+				small="gfx/leaders/THC/WastelanderAdvisor.tga"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = THC_high_command
+			allowed = {
+				original_tag = THC
+			}
+			traits = {
+				elliott_high_command
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	THC_Theorist = {
+		name="Theorist"
+		gender = female
+		portraits = {
+			civilian = {
+				small="gfx/leaders/THC/WastelanderAdvisor.tga"
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = THC_theorist
 			allowed = {
 				original_tag = THC
 			}
