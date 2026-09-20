@@ -152,7 +152,10 @@ set_party_name = {
 recruit_character = THC_Lyonnaise
 recruit_character = THC_General
 recruit_character = THC_Head_Paladin
+recruit_character = THC_Navy
 recruit_character = THC_Dandelion
+recruit_character = THC_High_Command
+recruit_character = THC_Theorist
 recruit_character = THC_Head_Scribe
 recruit_character = THC_Vinegar
 
