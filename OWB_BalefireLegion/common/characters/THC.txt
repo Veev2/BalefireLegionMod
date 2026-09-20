@@ -115,7 +115,7 @@ characters = {
 		}
 	}
 	THC_Head_Scribe = {
-		name="Head Scribe (Elijah)"
+		name="Injera"
 		gender = female
 		portraits = {
 			civilian = {
