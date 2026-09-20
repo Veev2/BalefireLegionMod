@@ -15,6 +15,20 @@ characters = {
 			}
 			expire = "3000.1.1.1"
 		}
+		advisor = {
+			slot = navy_chief
+			idea_token = THC_elder_lyonnaise
+			allowed = {
+				original_tag = THC
+			}
+			traits = {
+				elliott_high_command
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+		}
 	}
 	THC_General = {
 		name="General Placeholder"
@@ -42,12 +56,81 @@ characters = {
 		gender = female
 		portraits = {
 			civilian = {
-				small="gfx/leaders/THC/SilentAdvisor.tga"
+				small="gfx/leaders/THC/WastelanderAdvisor.tga"
 			}
 		}
 		advisor = {
 			slot = army_chief
 			idea_token = THC_head_paladin
+			allowed = {
+				original_tag = THC
+			}
+			traits = {
+				elliott_high_command
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	THC_Dandelion = {
+		name="Sentinel Dandelion (Star Paladin?)"
+		gender = female
+		portraits = {
+			civilian = {
+				small="gfx/leaders/THC/WastelanderAdvisor.tga"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = THC_sentinel_dandelion
+			allowed = {
+				original_tag = THC
+			}
+			traits = {
+				elliott_high_command
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	THC_Head_Scribe = {
+		name="Head Scribe (Elijah)"
+		gender = female
+		portraits = {
+			civilian = {
+				small="gfx/leaders/THC/WastelanderAdvisor.tga"
+			}
+		}
+		advisor = {
+			slot = economic_advisor
+			idea_token = THC_head_scribe
+			allowed = {
+				original_tag = THC
+			}
+			traits = {
+				elliott_high_command
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	THC_Vinegar = {
+		name="Vinegar Sangria"
+		gender = female
+		portraits = {
+			civilian = {
+				small="gfx/leaders/THC/WastelanderAdvisor.tga"
+			}
+		}
+		advisor = {
+			slot = cultural_advisor
+			idea_token = THC_vinegar
 			allowed = {
 				original_tag = THC
 			}
