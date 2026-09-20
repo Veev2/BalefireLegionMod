@@ -5,6 +5,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large="gfx/leaders/THC/elderlyonaise.tga"
+				small="gfx/leaders/THC/WastelanderAdvisor.tga"
 			}
 		}
 		country_leader = {
@@ -47,6 +48,7 @@ characters = {
 			traits = { 
 				brotherhood_commander_trait
 				strong_trait
+				perceptive_trait
 				intelligent_trait
 			}
 		}
@@ -56,7 +58,22 @@ characters = {
 		gender = female
 		portraits = {
 			civilian = {
+				large="gfx/leaders/THC/Wastelander.tga"
 				small="gfx/leaders/THC/WastelanderAdvisor.tga"
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			traits = {
+				brotherhood_commander_trait
+				strong_trait
+				intelligent_trait
+				charismatic_trait
+				pain_train_trait
 			}
 		}
 		advisor = {
