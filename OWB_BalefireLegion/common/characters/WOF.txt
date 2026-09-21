@@ -1,0 +1,40 @@
+characters = {
+	WOF_Leader = {
+		name="Raider Leader"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/WOF/Wastelander.tga"
+			}
+		}
+		country_leader = {
+			ideology = conspiratory_oligarchy
+			traits = {
+				isolationist
+				political_workhorse
+			}
+			expire = "3000.1.1.1"
+		}
+	}
+	WOF_General = {
+		name="Raider General"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/WOF/Wastelander.tga"
+				small="gfx/leaders/WOF/WastelanderAdvisor.tga"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			traits = { 
+				strong_trait
+				enduring_trait
+			}
+		}
+	}
+}
