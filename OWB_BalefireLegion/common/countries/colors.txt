@@ -1612,3 +1612,7 @@ THC = {
 	color = rgb { 107 167 184 }
 	color_ui = rgb { 107 167 184 }
 }
+WOF = {
+	color = rgb { 0 64 36 }
+	color_ui = rgb { 0 64 36 }
+}
