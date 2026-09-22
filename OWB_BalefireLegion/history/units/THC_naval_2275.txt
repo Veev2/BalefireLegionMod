@@ -1,0 +1,17 @@
+units = {
+	fleet = {
+		name = "Trottingham Fleet"
+		naval_base = 16443
+		task_force = {
+			name = "Trottingham Brigade"
+			location = 16443
+			ship = { name = "THC Purity" definition = light_ship_unit equipment = { ship_hull_light_1 = { amount = 1 owner = THC version_name = "River Boat" } } }
+			ship = { name = "THC Purity" definition = light_ship_unit equipment = { ship_hull_light_1 = { amount = 1 owner = THC version_name = "River Boat" } } }
+			ship = { name = "THC Purity" definition = light_ship_unit equipment = { ship_hull_light_1 = { amount = 1 owner = THC version_name = "River Boat" } } }
+			ship = { name = "THC Gulf" definition = medium_ship_screen_unit equipment = { ship_hull_medium_1 = { amount = 1 owner = THC version_name = "Destroyer" } } }
+			ship = { name = "THC Davy Crocket" definition = medium_ship_screen_unit equipment = { ship_hull_medium_1 = { amount = 1 owner = THC version_name = "Destroyer" } } }
+			ship = { name = "THC Brotherhood" definition = medium_ship_screen_unit equipment = { ship_hull_medium_1 = { amount = 1 owner = THC version_name = "Destroyer" } } }
+			ship = { name = "THC Alamo" pride_of_the_fleet = yes definition = heavy_ship_unit equipment = { ship_hull_heavy_1 = { amount = 1 owner = THC version_name = "Heavy Ship" } } }
+		}
+	}
+}
