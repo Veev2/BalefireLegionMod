@@ -1,5 +1,6 @@
 ﻿capital = 1429
 load_oob = THC_units_2275
+set_naval_oob = THC_naval_2275
 
 set_technology = {
 	basic_supply_transport_tech = 1
