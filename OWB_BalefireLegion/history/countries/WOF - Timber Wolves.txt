@@ -8,7 +8,7 @@ set_technology = {
 	#infantry_tech_level_scientific = 1
 
 	support_tech_level_tribal = 1
-	#support_tech_level_settler = 1
+	support_tech_level_settler = 1
 	#support_tech_level_scientific = 1
 
 	special_forces_tech_level_tribal = 1
@@ -28,7 +28,7 @@ set_technology = {
 	#robotics_tech_level_scientific = 1
 
 	creatures_tech_level_tribal = 1
-	creatures_tech_level_settler = 1
+	#creatures_tech_level_settler = 1
 	#creatures_tech_level_scientific = 1
 
 	#air_tech_level_tribal = 1
@@ -61,16 +61,27 @@ set_technology = {
 
 	support_weaponry = 1
 	demolitions_weaponry_tech = 1
-	fireteam_weaponry_tech = 1
+	#fireteam_weaponry_tech = 1
 	dog_equipment_tech_1 = 1
 	dog_infantry_tech = 1
+	dog_tech_1
+	#dog_equipment_tech_2
 
-	bike_tech_1 = 1
+	#wb_swamp_monsters
+	#bb_chitin_plating
+	#burrowing_beast_unlock_tech
+	#amphibious_beast_unlock_tech
+	#war_beasts_unlock_tech
+	#deathclaw_unlock_tech
+	#deathclaw_infantry_unlock_tech
+	#deathclaw_special_forces_unlock_tech
+
+	#bike_tech_1 = 1
 	raider_reckless_aggression = 1
 	terror_tactics = 1
 
 	nautics_tech_1 = 1
-	light_navy_hull_tech_1 = 1
+	#light_navy_hull_tech_1 = 1
 	#waterproof_sealing_tech = 1
 	naval_invasion_tech_1 = 1
 }
@@ -79,9 +90,17 @@ set_stability = 0.3
 set_war_support = 0.6
 set_research_slots = 1
 set_country_flag = is_raider_nation
-set_country_flag = is_nevada_nation
 set_country_flag = tribal_doctrine_ai
 set_country_flag = roman_doctrine_ai
+set_country_flag = dont_give_raider_generic_political_advisors
+set_country_flag = dont_give_raider_generic_high_command
+set_country_flag = dont_give_raider_generic_theorists
+set_country_flag = dont_give_raider_generic_chiefs
+set_country_flag = no_generic_chief
+set_country_flag = no_generic_political_advisors
+set_country_flag = no_generic_high_command
+set_country_flag = no_generic_theorist
+set_country_flag = no_generic_advisor
 
 set_politics = {
 	ruling_party = elites
@@ -96,13 +115,13 @@ set_popularities = {
 }
 
 add_ideas = {
+	chems_as_culture
 	undesirables_law_raider
 	raider_bands
 	mutant_law_ghoul
 	officer_law_local_legends
 	training_law_wasteland
 	closed_economy
-	chems_as_culture
 	political_effort_censorship
 
 	Racial_tensions
@@ -116,4 +135,4 @@ add_ideas = {
 recruit_character = WOF_Leader
 recruit_character = WOF_General
 
-add_manpower = 500 # Vipers migrated to the area, higher initial MP pool is justified and needed for balance
+add_manpower = 1500 # Vipers migrated to the area, higher initial MP pool is justified and needed for balance
