@@ -1,0 +1,14 @@
+﻿l_english:
+  #spellcheck_ignore: all
+  GRF_elites_ADJ:0 "Mercenary"
+  GRF_elites_DEF:0 "the Griffon Mercs"
+  GRF_elites:0 "Griffon Mercs"
+  GRF_intellectuals_ADJ:0 "Mercenary"
+  GRF_intellectuals_DEF:0 "the Griffon Mercs"
+  GRF_intellectuals:0 "Griffon Mercs"
+  GRF_people_ADJ:0 "Mercenary"
+  GRF_people_DEF:0 "the Griffon Mercs"
+  GRF_people:0 "Griffon Mercs"
+  GRF_ruler_ADJ:0 "Mercenary"
+  GRF_ruler_DEF:0 "the Griffon Mercs"
+  GRF_ruler:0 "Griffon Mercs"
