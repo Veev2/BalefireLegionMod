@@ -1,0 +1,39 @@
+characters = {
+	GHT_Leader = {
+		name="Ghoul Leader"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GHT/Wastelander.tga"
+			}
+		}
+		country_leader = {
+			ideology = commune
+			traits = {
+				isolationist
+			}
+			expire = "3000.1.1.1"
+		}
+	}
+	GHT_General = {
+		name="Ghoul General"
+		gender = female
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GHT/Wastelander.tga"
+				small="gfx/leaders/GHT/WastelanderAdvisor.tga"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			traits = { 
+				strong_trait
+				enduring_trait
+			}
+		}
+	}
+}
