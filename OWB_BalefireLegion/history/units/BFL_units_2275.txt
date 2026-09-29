@@ -6,7 +6,6 @@ division_template = {
 		spec_ops = { x = 0 y = 2 }
 		spec_ops = { x = 1 y = 0 }
 		spec_ops = { x = 1 y = 1 }
-		spec_ops = { x = 1 y = 2 }
 	}
 }
 
