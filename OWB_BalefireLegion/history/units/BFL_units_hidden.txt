@@ -1,0 +1,32 @@
+division_template = {
+	name = "Centuria"
+	regiments = {
+		spec_ops = { x = 0 y = 0 }
+		spec_ops = { x = 0 y = 1 }
+		spec_ops = { x = 0 y = 2 }
+		spec_ops = { x = 1 y = 0 }
+		spec_ops = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Manipulus"
+	regiments = {
+		spec_ops = { x = 0 y = 0 }
+		spec_ops = { x = 0 y = 1 }
+		spec_ops = { x = 0 y = 2 }
+		spec_ops = { x = 1 y = 0 }
+		spec_ops = { x = 1 y = 1 }
+		spec_ops = { x = 1 y = 2 }
+		spec_ops = { x = 2 y = 0 }
+	}
+	support = {
+		medical_chem_company = { x = 0 y = 0 }
+		power_armour_support = { x = 1 y = 0 }
+		anti_tank_company = { x = 2 y = 0 }
+		anti_air_support = { x = 3 y = 0 }
+		cybernetic_support = { x = 4 y = 0 }
+	}
+}
+
+
