@@ -1,0 +1,85 @@
+division_template = {
+	name = "Trackers"
+	regiments = {
+		dog_infantry = { x = 0 y = 0 }
+		dog_infantry = { x = 0 y = 1 }
+		dog_infantry = { x = 0 y = 2 }
+		dog_infantry = { x = 1 y = 0 }
+		dog_infantry = { x = 1 y = 1 }
+		dog_infantry = { x = 1 y = 2 }
+	}
+	support = {
+		dog_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Claws"
+	regiments = {
+		dog_infantry = { x = 0 y = 0 }
+		dog_infantry = { x = 0 y = 1 }
+		dog_infantry = { x = 0 y = 2 }
+		dog_infantry = { x = 1 y = 0 }
+	}
+	support = {
+		dog_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Fangs"
+	regiments = {
+		dog_infantry = { x = 0 y = 0 }
+		dog_infantry = { x = 0 y = 1 }
+		dog_infantry = { x = 0 y = 2 }
+		dog_infantry = { x = 1 y = 0 }
+		dog_infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Elite"
+	regiments = {
+		dog_infantry = { x = 0 y = 0 }
+		dog_infantry = { x = 0 y = 1 }
+		dog_infantry = { x = 0 y = 2 }
+		dog_infantry = { x = 1 y = 0 }
+		dog_infantry = { x = 1 y = 1 }
+	}
+	support = {
+		dog_company = { x = 0 y = 0 }
+	}
+}
+
+
+
+units = {
+	division = {
+		name = "Tracker Gang"
+		location = 16469
+		division_template = "Trackers"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Bonecrusher's Gang"
+		location = 16463
+		division_template = "Claws"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Fang Gang"
+		location = 16487
+		division_template = "Fangs"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Elite Gang"
+		location = 16495
+		division_template = "Elite"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+}
