@@ -1,5 +1,5 @@
 ﻿capital = 1433
-oob = "WOF_2275"
+oob = "WOF_units_2275"
 
 set_technology = {
 	basic_supply_transport_tech = 1
@@ -135,4 +135,4 @@ add_ideas = {
 recruit_character = WOF_Leader
 recruit_character = WOF_General
 
-add_manpower = 1500 # Vipers migrated to the area, higher initial MP pool is justified and needed for balance
+add_manpower = 3500 # Vipers migrated to the area, higher initial MP pool is justified and needed for balance
