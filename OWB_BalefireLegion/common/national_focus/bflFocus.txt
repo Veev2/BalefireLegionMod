@@ -13,12 +13,49 @@ focus_tree = {
     focus = {
 		id = BFL_focus_1
 		icon = GFX_goal_generic_neutrality_focus
-		x = 20
+		x = 16
 		y = 1
 		cost = 1
 		completion_reward = {
 			country_event = { id = WhatTheHay_event.1 }
 		}
 	}
-
+	focus = {
+		id = BFL_focus_2
+		icon = GFX_focus_rising_phoenix
+		x = 16
+		y = 2
+		prerequisite = { 
+			focus = BFL_focus_1 
+		}
+		cost = 2
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = BFL_focus_3
+		icon = GFX_focus_rising_phoenix
+		x = 16
+		y = 3
+		prerequisite = { 
+			focus = BFL_focus_1 
+		}
+		cost = 4
+		completion_reward = {
+   			BFL_Grand_Marshal = {
+				add_country_leader_trait = dictator_leader_trait
+   			}
+		}
+	}
 }
+
+			create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = BAM
+			}
+			add_political_power = 100
+			add_offsite_building = {
+				type = industrial_complex
+				level = 4
+			}
