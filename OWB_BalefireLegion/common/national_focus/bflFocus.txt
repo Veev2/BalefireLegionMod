@@ -15,7 +15,7 @@ focus_tree = {
 		icon = GFX_goal_generic_neutrality_focus
 		x = 16
 		y = 1
-		cost = 1
+		cost = 3
 		completion_reward = {
 			country_event = { id = WhatTheHay_event.1 }
 		}
@@ -30,6 +30,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
+			country_event = { id = GatheringStrength_event.1 }
 			add_political_power = 100
 		}
 	}
@@ -39,7 +40,7 @@ focus_tree = {
 		x = 16
 		y = 3
 		prerequisite = { 
-			focus = BFL_focus_1 
+			focus = BFL_focus_2 
 		}
 		cost = 4
 		completion_reward = {
@@ -48,6 +49,54 @@ focus_tree = {
    			}
 		}
 	}
+	focus = {
+		id = BFL_focus_4
+		icon = GFX_focus_rising_phoenix
+		x = 15
+		y = 4
+		prerequisite = {
+			focus = BFL_focus_3
+		}
+		cost = 1
+		mutually_exclusive = { focus =  BFL_focus_5 }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = BFL_focus_5
+		icon = GFX_focus_rising_phoenix
+		x = 17
+		y = 4
+		prerequisite = {
+			focus = BFL_focus_3
+		}
+		cost = 1
+		mutually_exclusive = { focus =  BFL_focus_4 }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = BFL_focus_6
+		icon = GFX_focus_rising_phoenix
+		x = 16
+		y = 5
+		prerequisite = { 
+			focus = BFL_focus_4 
+			focus = BFL_focus_5 
+		}
+		cost = 1
+		completion_reward = {
+			1427 = {
+				create_unit = {
+					division = "name = \"2nd Centuria\" division_template = \"Centuria\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+        		}
+		}
+	}
+
 }
 
 			create_wargoal = {
