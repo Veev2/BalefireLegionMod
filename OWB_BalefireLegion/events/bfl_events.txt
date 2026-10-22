@@ -1,0 +1,51 @@
+add_namespace = WhatTheHay_event
+	country_event = {
+		id = WhatTheHay_event.1
+		title = WhatTheHay_event.1.t
+		desc = WhatTheHay_event.1.d
+		picture = GFX_report_event_generic_read_write
+
+		is_triggered_only = yes
+
+		mean_time_to_happen = {
+			days = 1
+		}
+
+		fire_only_once = yes
+
+		option = {
+			name = WhatTheHay_event.1.a
+			country_event = { id = GatheringStrength_event.1 }
+			set_province_victory_points = {
+      	      province = 16464
+    	        value = 4      
+   	     }
+			set_province_victory_points = {
+      	      province = 16462
+      	      value = 1
+ 	       }
+	}
+}
+
+add_namespace = GatheringStrength_event
+country_event = {
+	id = GatheringStrength_event.1
+	title = GatheringStrength_event.1.t
+	desc = GatheringStrength_event.1.d
+	picture = GFX_report_event_generic_read_write
+
+		is_triggered_only = yes
+
+		mean_time_to_happen = {
+			days = 1
+		}
+
+		fire_only_once = yes
+
+	option = {
+		name = 	GatheringStrength_event.1.a
+		set_country_flag = Nightstalker_unlocked
+		add_political_power = 100
+
+	}
+}
