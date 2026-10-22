@@ -1,3 +1,13 @@
 ﻿l_english:
   BFL_focus_1:0 "What the hay just happened?"
   BFL_focus_1_desc:0 "'What just happened?? Where are we? What is going on? What is this place?' - These are all questions racing through our minds as we try to make sense of the situation."
+  BFL_focus_2:0 "Gathering Strength"
+  BFL_focus_2_desc:0 "'Legionaries are arriving every day. - add Nightstalker."
+  BFL_focus_3:0 "Summon the Concilium Legatorum"
+  BFL_focus_3_desc:0 "'We must act quickly. - Rel becomes Dictator."
+  BFL_focus_4:0 "A more messured Approch"
+  BFL_focus_4_desc:0 "' - nice? path."
+  BFL_focus_5:0 "To bring them all to their knees"
+  BFL_focus_5_desc:0 "' - evil path."
+  BFL_focus_6:0 "taking Control"
+  BFL_focus_6_desc:0 "' - Move into Galliano. - add event/ add Silent Salve"
