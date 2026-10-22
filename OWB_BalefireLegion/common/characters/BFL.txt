@@ -72,6 +72,9 @@ characters = {
 			allowed = {
 				original_tag = BFL
 			}
+			available = {
+				has_country_flag = Silent_Salve_unlocked
+			}
 			traits = {
 				silent_salve_leader_trait
 			}
@@ -95,6 +98,9 @@ characters = {
 			idea_token = BFL_princeps_occulta_nightstalker
 			allowed = {
 				original_tag = BFL
+			}
+			available = {
+				has_country_flag = Nightstalker_unlocked
 			}
 			traits = {
 				"Princeps Occulta"
@@ -143,6 +149,9 @@ characters = {
 			idea_token = BFL_princeps_auxilia_ruby
 			allowed = {
 				original_tag = BFL
+			}
+			available = {
+				has_country_flag = Ruby_unlocked
 			}
 			traits = {
 				"Princeps Auxilia"
