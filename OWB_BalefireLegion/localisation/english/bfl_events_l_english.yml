@@ -2,6 +2,20 @@
   WhatTheHay_event.1.t:0 "What the hay just happened?"
   WhatTheHay_event.1.d:0 "'What just happened?? Where are we? What is going on? What is this place?' - These are all questions racing through our minds as we try to make sense of the situation. (This is just Test-Text)"
   WhatTheHay_event.1.a:0 "We need to figure out what just happened and how to proceed."
+
   GatheringStrength_event.1.t:0 "Gathering Strength"
   GatheringStrength_event.1.d:0 "'Legionaries are arriving every day. - add Nightstalker. (This is just Test-Text)"
   GatheringStrength_event.1.a:0 "Welcome back Princeps..."
+
+  Dictator_event.1.t:0 "Emergency Measures"
+  Dictator_event.1.d:0 "'Summon the Concilium Legatorum, well those who are here. - add dictator trait. (This is just Test-Text)"
+  Dictator_event.1.a:0 "Very well so be it."
+
+  ChosenDirection_event.1.t:0 "Chosen Direction"
+  ChosenDirection_event.1.d:0 "'She choose... (This is just Test-Text)"
+  ChosenDirection_event.1.a:0 "a more messured Approch."
+  ChosenDirection_event.1.b:0 "to bring them all to their knees."
+
+  SilentSalveReturnes_event.1.t:0 "Silent Salve Returnes"
+  SilentSalveReturnes_event.1.d:0 "'Silent Salve Returnes. - add Silent Salve. (This is just Test-Text)"
+  SilentSalveReturnes_event.1.a:0 "Welcome back Princeps. :D"
