@@ -26,68 +26,61 @@ focus_tree = {
 		x = 16
 		y = 2
 		prerequisite = { 
-			focus = BFL_focus_1 
+			focus = BFL_focus_1
 		}
 		cost = 2
 		completion_reward = {
-			country_event = { id = GatheringStrength_event.1 }
-			add_political_power = 100
+			country_event = { id = Dictator_event.1 }
 		}
 	}
 	focus = {
 		id = BFL_focus_3
 		icon = GFX_focus_rising_phoenix
-		x = 16
+		x = 15
 		y = 3
-		prerequisite = { 
-			focus = BFL_focus_2 
+		prerequisite = {
+			focus = BFL_focus_2
 		}
-		cost = 4
+		cost = 10000
+		mutually_exclusive = { focus =  BFL_focus_4 }
+		bypass = {
+			has_global_flag = messured_focus_bypass_flag
+		}
 		completion_reward = {
-   			BFL_Grand_Marshal = {
-				add_country_leader_trait = dictator_leader_trait
-   			}
+			set_country_flag = messured_focus_unlocked
+			add_political_power = 50
 		}
 	}
 	focus = {
 		id = BFL_focus_4
 		icon = GFX_focus_rising_phoenix
-		x = 15
-		y = 4
+		x = 17
+		y = 3
 		prerequisite = {
-			focus = BFL_focus_3
+			focus = BFL_focus_2
 		}
-		cost = 1
-		mutually_exclusive = { focus =  BFL_focus_5 }
+		cost = 10000
+		mutually_exclusive = { focus =  BFL_focus_3 }
+		bypass = {
+			has_global_flag = bent_knees_focus_bypass_flag
+		}
 		completion_reward = {
+			set_country_flag = bent_knees_focus_unlocked
 			add_political_power = 50
 		}
 	}
 	focus = {
 		id = BFL_focus_5
 		icon = GFX_focus_rising_phoenix
-		x = 17
+		x = 16
 		y = 4
-		prerequisite = {
+		prerequisite = { 
+			focus = BFL_focus_4 
 			focus = BFL_focus_3
 		}
 		cost = 1
-		mutually_exclusive = { focus =  BFL_focus_4 }
 		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	focus = {
-		id = BFL_focus_6
-		icon = GFX_focus_rising_phoenix
-		x = 16
-		y = 5
-		prerequisite = { 
-			focus = BFL_focus_4 
-			focus = BFL_focus_5 
-		}
-		cost = 1
-		completion_reward = {
+			country_event = { id = SilentSalveReturnes_event.1 }
 			1427 = {
 				create_unit = {
 					division = "name = \"2nd Centuria\" division_template = \"Centuria\" start_experience_factor = 0.1"
