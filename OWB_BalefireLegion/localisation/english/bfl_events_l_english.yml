@@ -19,3 +19,7 @@
   SilentSalveReturnes_event.1.t:0 "Silent Salve Returnes"
   SilentSalveReturnes_event.1.d:0 "'Silent Salve Returnes. - add Silent Salve. (This is just Test-Text)"
   SilentSalveReturnes_event.1.a:0 "Welcome back Princeps. :D"
+
+  ManagingNewArrivals_event.1.t:0 "Dealing With The New Arrivals"
+  ManagingNewArrivals_event.1.d:0 "'Dealing with the new arrivals. (This is just Test-Text)"
+  ManagingNewArrivals_event.1.a:0 "We must stand together."
