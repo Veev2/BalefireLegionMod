@@ -10,6 +10,10 @@ focus_tree = {
 		}
 	}
 
+#total Focus: 10
+	#------------------------------------------------------------------
+	#Start
+	#------------------------------------------------------------------
     focus = {
 		id = BFL_focus_1
 		icon = GFX_goal_generic_neutrality_focus
@@ -48,7 +52,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_country_flag = messured_focus_unlocked
-			add_political_power = 50
 		}
 	}
 	focus = {
@@ -66,7 +69,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_country_flag = bent_knees_focus_unlocked
-			add_political_power = 50
 		}
 	}
 	focus = {
@@ -78,8 +80,9 @@ focus_tree = {
 			focus = BFL_focus_4 
 			focus = BFL_focus_3
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
+			if = {limit = { has_idea = "Stateless Army" } swap_ideas = { remove_idea = "Stateless Army" add_idea = Racial_tensions }}
 			country_event = { id = SilentSalveReturnes_event.1 }
 			1427 = {
 				create_unit = {
@@ -89,6 +92,97 @@ focus_tree = {
         		}
 		}
 	}
+	#------------------------------------------------------------------
+	#Unification(?)
+	#------------------------------------------------------------------
+	focus = {
+		id = BFL_focus_6
+		icon = GFX_focus_rising_phoenix
+		x = 12
+		y = 5
+		prerequisite = { 
+			focus = BFL_focus_5
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = BFL_focus_7
+		icon = GFX_focus_rising_phoenix
+		x = 14
+		y = 5
+		prerequisite = { 
+			focus = BFL_focus_5
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = BFL_focus_8
+		icon = GFX_focus_rising_phoenix
+		x = 16
+		y = 5
+		prerequisite = { 
+			focus = BFL_focus_5
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = BFL_focus_9
+		icon = GFX_focus_rising_phoenix
+		x = 18
+		y = 5
+		prerequisite = { 
+			focus = BFL_focus_5
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = BFL_focus_10
+		icon = GFX_focus_rising_phoenix
+		x = 20
+		y = 5
+		prerequisite = { 
+			focus = BFL_focus_5
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	#------------------------------------------------------------------
+	#The Human-Question
+	#------------------------------------------------------------------
+	focus = {
+		id = BFL_focus_11
+		icon = GFX_focus_rising_phoenix
+		x = 24
+		y = 1
+		prerequisite = { 
+			focus = BFL_focus_5
+		}
+		cost = 7
+		completion_reward = {
+			if = {limit = { has_idea = Racial_tensions } swap_ideas = { remove_idea = Racial_tensions add_idea = Far_Home }}
+		}
+	}
+	#------------------------------------------------------------------
+	#Covernment
+	#------------------------------------------------------------------
+
+	#------------------------------------------------------------------
+	#
+	#------------------------------------------------------------------
 
 }
 
