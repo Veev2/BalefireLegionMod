@@ -10,7 +10,7 @@ focus_tree = {
 		}
 	}
 
-#total Focus: 10
+#total Focus: 20
 	#------------------------------------------------------------------
 	#Start
 	#------------------------------------------------------------------
@@ -179,7 +179,123 @@ focus_tree = {
 	#------------------------------------------------------------------
 	#Covernment
 	#------------------------------------------------------------------
-
+	focus = {
+		id = BFL_focus_12
+		icon = GFX_focus_rising_phoenix
+		x = 5
+		y = 4
+		prerequisite = { 
+			focus = BFL_focus_5
+		}
+		cost = 7
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = BFL_focus_13
+		icon = GFX_focus_rising_phoenix
+		x = 2
+		y = 5
+		prerequisite = { 
+			focus = BFL_focus_12
+		}
+		cost = 70
+		completion_reward = {
+			if = {limit = { has_idea = "Concilium Legatorum in Chaos" } swap_ideas = { remove_idea = "Concilium Legatorum in Chaos" add_idea = "Concilium Legatorum rebuilding" }}
+		}
+	}
+	focus = {
+		id = BFL_focus_14
+		icon = GFX_focus_rising_phoenix
+		x = 2
+		y = 6
+		prerequisite = { 
+			focus = BFL_focus_13
+		}
+		cost = 70
+		completion_reward = {
+			if = {limit = { has_idea = "Concilium Legatorum rebuilding" } swap_ideas = { remove_idea = "Concilium Legatorum rebuilding" add_idea = "Concilium Legatorum" }}
+		}
+	}
+	focus = {
+		id = BFL_focus_15
+		icon = GFX_focus_rising_phoenix
+		x = 4
+		y = 5
+		prerequisite = { 
+			focus = BFL_focus_12
+		}
+		cost = 70
+		completion_reward = {
+			if = {limit = { has_idea = "Pars Primaria in Chaos" } swap_ideas = { remove_idea = "Pars Primaria in Chaos" add_idea = "Pars Primaria rebuilding" }}
+		}
+	}
+	focus = {
+		id = BFL_focus_16
+		icon = GFX_focus_rising_phoenix
+		x = 4
+		y = 6
+		prerequisite = { 
+			focus = BFL_focus_15
+		}
+		cost = 70
+		completion_reward = {
+			if = {limit = { has_idea = "Pars Primaria rebuilding" } swap_ideas = { remove_idea = "Pars Primaria rebuilding" add_idea = "Pars Primaria" }}
+		}
+	}
+	focus = {
+		id = BFL_focus_17
+		icon = GFX_focus_rising_phoenix
+		x = 6
+		y = 5
+		prerequisite = { 
+			focus = BFL_focus_12
+		}
+		cost = 70
+		completion_reward = {
+			if = {limit = { has_idea = "Pars Auxilia in Chaos" } swap_ideas = { remove_idea = "Pars Auxilia in Chaos" add_idea = "Pars Auxilia rebuilding" }}
+		}
+	}
+	focus = {
+		id = BFL_focus_18
+		icon = GFX_focus_rising_phoenix
+		x = 6
+		y = 6
+		prerequisite = { 
+			focus = BFL_focus_17
+		}
+		cost = 70
+		completion_reward = {
+			if = {limit = { has_idea = "Pars Auxilia rebuilding" } swap_ideas = { remove_idea = "Pars Auxilia rebuilding" add_idea = "Pars Auxilia" }}
+		}
+	}
+	focus = {
+		id = BFL_focus_19
+		icon = GFX_focus_rising_phoenix
+		x = 8
+		y = 5
+		prerequisite = { 
+			focus = BFL_focus_12
+		}
+		cost = 70
+		completion_reward = {
+			if = {limit = { has_idea = "Pars Occulta in Chaos" } swap_ideas = { remove_idea = "Pars Occulta in Chaos" add_idea = "Pars Occulta rebuilding" }}
+		}
+	}
+	focus = {
+		id = BFL_focus_20
+		icon = GFX_focus_rising_phoenix
+		x = 8
+		y = 6
+		prerequisite = { 
+			focus = BFL_focus_19
+		}
+		cost = 70
+		completion_reward = {
+			if = {limit = { has_idea = "Pars Occulta rebuilding" } swap_ideas = { remove_idea = "Pars Occulta rebuilding" add_idea = "Pars Occulta" }}
+		}
+	}
 	#------------------------------------------------------------------
 	#
 	#------------------------------------------------------------------
