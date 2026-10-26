@@ -177,6 +177,31 @@ ideas = {
 				acclimatization_cold_climate_gain_factor = 0.10
 			}
 		}
+		"Pars Auxilia rebuilding" = {
+			picture = generic_medicine
+
+			modifier = {
+				stability_factor = -0.03
+				army_attack_factor = 0.01
+				army_defence_factor = 0.03
+				max_planning = -0.05
+				coordination_bonus = -0.05
+				army_org_factor = -0.05
+				supply_consumption_factor = 0.30
+				caps_expense_modifier = 0.15
+				training_time_army_factor = 0.25
+				justify_war_goal_time = -0.10
+				send_volunteer_divisions_required = 0.10
+				send_volunteer_size = 3
+				special_forces_min = 30
+				research_speed_factor = 0.05
+				production_factory_max_efficiency_factor = 0.03
+				production_factory_efficiency_gain_factor = 0.03
+				casualty_trickleback = 0.03
+				acclimatization_hot_climate_gain_factor = 0.15
+				acclimatization_cold_climate_gain_factor = 0.15
+			}
+		}
 		"Pars Auxilia" = {
 			picture = generic_medicine
 
@@ -222,6 +247,33 @@ ideas = {
 				encryption_factor = -0.05
 				equipment_capture_factor = 0.05
 				intel_network_gain = 0.25
+			}
+		}
+		"Pars Occulta rebuilding" = {
+			picture = generic_flexible_foreign_policy
+
+			modifier = {
+				resistance_target = 0.10
+				stability_factor = -0.05
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				max_planning = 0.01
+				coordination_bonus = 0.01
+				army_org_factor = 0.01
+				caps_expense_modifier = 0.15
+				training_time_army_factor = 0.25
+				justify_war_goal_time = -0.10
+				send_volunteer_divisions_required = 0.10
+				send_volunteer_size = 3
+				special_forces_min = 30
+				compliance_gain = 0.05
+				stability_weekly = 0.0005
+				drift_defence_factor = 0.15
+				decryption_factor = 0.01
+				encryption_factor = 0.01
+				equipment_capture_factor = 0.05
+				operative_slot = 1
+				intel_network_gain = 0.5
 			}
 		}
 		"Pars Occulta" = {
