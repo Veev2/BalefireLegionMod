@@ -98,21 +98,25 @@ focus_tree = {
 	focus = {
 		id = BFL_focus_6
 		icon = GFX_focus_rising_phoenix
-		x = 12
+		x = 14
 		y = 5
 		prerequisite = { 
 			focus = BFL_focus_5
 		}
 		cost = 7
 		completion_reward = {
+			create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = GHT
+			}
 			add_political_power = 100
 		}
 	}
 	focus = {
 		id = BFL_focus_7
 		icon = GFX_focus_rising_phoenix
-		x = 14
-		y = 5
+		x = 15
+		y = 6
 		prerequisite = { 
 			focus = BFL_focus_5
 		}
@@ -137,8 +141,8 @@ focus_tree = {
 	focus = {
 		id = BFL_focus_9
 		icon = GFX_focus_rising_phoenix
-		x = 18
-		y = 5
+		x = 17
+		y = 6
 		prerequisite = { 
 			focus = BFL_focus_5
 		}
@@ -150,7 +154,7 @@ focus_tree = {
 	focus = {
 		id = BFL_focus_10
 		icon = GFX_focus_rising_phoenix
-		x = 20
+		x = 18
 		y = 5
 		prerequisite = { 
 			focus = BFL_focus_5
@@ -168,8 +172,8 @@ focus_tree = {
 		icon = GFX_focus_rising_phoenix
 		x = 24
 		y = 1
-		prerequisite = { 
-			focus = BFL_focus_5
+		available = {
+			has_completed_focus = BFL_focus_5
 		}
 		cost = 7
 		completion_reward = {
@@ -184,8 +188,8 @@ focus_tree = {
 		icon = GFX_focus_rising_phoenix
 		x = 5
 		y = 4
-		prerequisite = { 
-			focus = BFL_focus_5
+		available = {
+			has_completed_focus = BFL_focus_5
 		}
 		cost = 7
 		completion_reward = {
@@ -195,8 +199,8 @@ focus_tree = {
 	focus = {
 		id = BFL_focus_13
 		icon = GFX_focus_rising_phoenix
-		x = 2
-		y = 5
+		x = 3
+		y = 6
 		prerequisite = { 
 			focus = BFL_focus_12
 		}
@@ -208,8 +212,8 @@ focus_tree = {
 	focus = {
 		id = BFL_focus_14
 		icon = GFX_focus_rising_phoenix
-		x = 2
-		y = 6
+		x = 3
+		y = 8
 		prerequisite = { 
 			focus = BFL_focus_13
 		}
@@ -235,7 +239,7 @@ focus_tree = {
 		id = BFL_focus_16
 		icon = GFX_focus_rising_phoenix
 		x = 4
-		y = 6
+		y = 7
 		prerequisite = { 
 			focus = BFL_focus_15
 		}
@@ -261,7 +265,7 @@ focus_tree = {
 		id = BFL_focus_18
 		icon = GFX_focus_rising_phoenix
 		x = 6
-		y = 6
+		y = 7
 		prerequisite = { 
 			focus = BFL_focus_17
 		}
@@ -273,8 +277,8 @@ focus_tree = {
 	focus = {
 		id = BFL_focus_19
 		icon = GFX_focus_rising_phoenix
-		x = 8
-		y = 5
+		x = 7
+		y = 6
 		prerequisite = { 
 			focus = BFL_focus_12
 		}
@@ -286,8 +290,8 @@ focus_tree = {
 	focus = {
 		id = BFL_focus_20
 		icon = GFX_focus_rising_phoenix
-		x = 8
-		y = 6
+		x = 7
+		y = 8
 		prerequisite = { 
 			focus = BFL_focus_19
 		}
